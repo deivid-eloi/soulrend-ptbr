@@ -1,0 +1,770 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "path_of_the_samurai"
+	group: "544CA56FFEAE0054"
+	icon: {
+		Count: 1
+		id: "cdmoveset:yamato"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2A79DBB2D865E317"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "049FB0A1E594AAA3"
+			tasks: [{
+				id: "4F6A9846516FD6A2"
+				item: {
+					Count: 1
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["049FB0A1E594AAA3"]
+			id: "33D45A1A636B3F11"
+			tasks: [{
+				id: "6652BB634554FE22"
+				item: {
+					Count: 1
+					id: "epicfight:wooden_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["33D45A1A636B3F11"]
+			id: "7660DE6B1DB67277"
+			tasks: [{
+				id: "5A4F2A3946747061"
+				item: {
+					Count: 1
+					id: "epicfight:stone_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["33D45A1A636B3F11"]
+			id: "20A9C7576917A2A1"
+			tasks: [{
+				id: "58A095A719A6D9B0"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_wooden_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7660DE6B1DB67277"]
+			id: "14E86D57918C61A4"
+			tasks: [{
+				id: "41FA2C236477C7F2"
+				item: {
+					Count: 1
+					id: "epicfight:iron_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["20A9C7576917A2A1"]
+			id: "35A23AC9DC1688F7"
+			tasks: [{
+				id: "19DB3F531341FA7A"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_stone_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14E86D57918C61A4"]
+			id: "11641645DE89D759"
+			tasks: [{
+				id: "3C7A1CC5846EBFD0"
+				item: {
+					Count: 1
+					id: "epicfight:diamond_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["35A23AC9DC1688F7"]
+			id: "24AB194F47046A5E"
+			tasks: [{
+				id: "456F0E8F5BA6D713"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_iron_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["35A23AC9DC1688F7"]
+			id: "5453544332699CCE"
+			tasks: [{
+				id: "19C73060BE699FE1"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["11641645DE89D759"]
+			id: "5AF316249D47F821"
+			tasks: [{
+				id: "02671ADC7648F3F2"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonveil"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.25d
+		}
+		{
+			dependencies: ["11641645DE89D759"]
+			id: "7BB1E4C0996D22A3"
+			tasks: [{
+				id: "5DDD044B8ED6D2D6"
+				item: {
+					Count: 1
+					id: "epicfight:netherite_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["24AB194F47046A5E"]
+			id: "39557E2CF28879F2"
+			tasks: [{
+				id: "15EFA9D7FA6EF55A"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_diamond_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5453544332699CCE"]
+			id: "59002FF6F4043ACC"
+			tasks: [{
+				id: "4E3C8C9558D64FF9"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5453544332699CCE"]
+			id: "69BA56B2E5D6AB7B"
+			tasks: [{
+				id: "763687F4A21BD7D3"
+				item: {
+					Count: 1
+					id: "epicfight:uchigatana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5294566544566663d
+			y: 0.6013431013430974d
+		}
+		{
+			dependencies: ["5453544332699CCE"]
+			id: "781CDD25FD9AA7D3"
+			tasks: [{
+				id: "69442D8093808DDD"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7BB1E4C0996D22A3"
+				"5AF316249D47F821"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "2819DB0261E4F4A8"
+			tasks: [{
+				id: "05F3455D2BB6EB09"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["7BB1E4C0996D22A3"]
+			hide_dependent_lines: true
+			id: "162878576AB5A9C2"
+			tasks: [{
+				id: "6D6331E7542FCBCE"
+				item: "efn:air_tachi"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["7BB1E4C0996D22A3"]
+			hide_dependent_lines: true
+			id: "39B5907859A04F46"
+			tasks: [{
+				id: "6A323692FDE8BB4D"
+				item: "efn:co_tachi"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["39557E2CF28879F2"]
+			id: "45BCE1313E7C9352"
+			tasks: [{
+				id: "03563D84C726AB0F"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:long_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["39557E2CF28879F2"]
+			id: "24597A9F91F07F10"
+			tasks: [{
+				id: "34B1EA4A8D26E998"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_netherite_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["59002FF6F4043ACC"]
+			id: "7C94444D45DA0B99"
+			tasks: [{
+				id: "29FDF98ED33AA49F"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["69BA56B2E5D6AB7B"]
+			id: "77E9920EDB0A272F"
+			tasks: [{
+				id: "6467A24D8B8C684A"
+				item: {
+					Count: 1
+					id: "cdmoveset:katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["781CDD25FD9AA7D3"]
+			id: "63F6E5A6EF38B070"
+			tasks: [{
+				id: "4F0EBD8A97225DCA"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.017857142857132d
+			y: 4.0d
+		}
+		{
+			dependencies: ["781CDD25FD9AA7D3"]
+			id: "4EB26F415BA71057"
+			tasks: [{
+				id: "0A811C423FFED349"
+				item: {
+					Count: 1
+					id: "soulsweapons:dragonbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"24597A9F91F07F10"
+				"45BCE1313E7C9352"
+			]
+			dependency_requirement: "one_completed"
+			id: "58574D7388031D5A"
+			tasks: [{
+				id: "356D7E300943D208"
+				item: {
+					Count: 1
+					id: "wom:evil_tachi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C94444D45DA0B99"]
+			id: "7D56096FD6D97301"
+			tasks: [{
+				id: "1E7F9B0A6FEA6FC6"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["63F6E5A6EF38B070"]
+			hide_dependent_lines: true
+			id: "740317BE308BCDE7"
+			tasks: [{
+				id: "5A5FBDE6D68B55FB"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_kitsune"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.517857142857132d
+			y: 4.75d
+		}
+		{
+			dependencies: ["63F6E5A6EF38B070"]
+			hide_dependent_lines: true
+			id: "75389B40CAA40D85"
+			tasks: [{
+				id: "5974995EF011EAC7"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_oni"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.517857142857132d
+			y: 3.25d
+		}
+		{
+			dependencies: ["63F6E5A6EF38B070"]
+			hide_dependent_lines: true
+			id: "501904E3198F6E21"
+			tasks: [{
+				id: "4026B9AF7A756247"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_kitsune_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.035714285714263d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63F6E5A6EF38B070"]
+			hide_dependent_lines: true
+			id: "1FAB782DB1D8AB9E"
+			tasks: [{
+				id: "74FF09DBE039F05F"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_akaname"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.535714285714278d
+			y: 3.25d
+		}
+		{
+			dependencies: ["63F6E5A6EF38B070"]
+			hide_dependent_lines: true
+			id: "49A4A7C7F4B3B807"
+			tasks: [{
+				id: "105CDBC421EDD8BC"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_jorogumo"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.535714285714278d
+			y: 4.75d
+		}
+		{
+			dependencies: ["4EB26F415BA71057"]
+			hide_dependent_lines: true
+			id: "14D1149479CE7DD0"
+			tasks: [{
+				id: "40FC73F8778F6047"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_fire_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4EB26F415BA71057"]
+			hide_dependent_lines: true
+			id: "3C556E096D306842"
+			tasks: [{
+				id: "656C8183AB6AC450"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_ice_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4EB26F415BA71057"]
+			hide_dependent_lines: true
+			id: "0D229DE587DC3792"
+			tasks: [{
+				id: "122C1E8C6158EE3B"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_lightning_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"58574D7388031D5A"
+				"162878576AB5A9C2"
+				"39B5907859A04F46"
+			]
+			dependency_requirement: "one_completed"
+			id: "238DAC3EF2693E42"
+			tasks: [{
+				id: "2B62F1524CC2F0D7"
+				item: {
+					Count: 1
+					id: "wom:satsujin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"2819DB0261E4F4A8"
+				"7D56096FD6D97301"
+			]
+			dependency_requirement: "one_completed"
+			id: "2EDC031D82D71B29"
+			tasks: [{
+				id: "4BAE69667C934461"
+				item: {
+					Count: 1
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"77E9920EDB0A272F"
+				"75389B40CAA40D85"
+				"740317BE308BCDE7"
+				"501904E3198F6E21"
+				"1FAB782DB1D8AB9E"
+				"49A4A7C7F4B3B807"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "159E0E9224415781"
+			tasks: [{
+				id: "370BC0640D2AE63C"
+				item: "efn:kusabimaru"
+				type: "item"
+			}]
+			x: 10.05357142857143d
+			y: -0.7500000000000142d
+		}
+		{
+			dependencies: [
+				"238DAC3EF2693E42"
+				"159E0E9224415781"
+			]
+			dependency_requirement: "one_completed"
+			id: "257B73C1A0F5BB4C"
+			tasks: [{
+				id: "31AE66B565CEC6DC"
+				item: "efn:hf_murasama"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"2EDC031D82D71B29"
+				"14D1149479CE7DD0"
+				"3C556E096D306842"
+				"0D229DE587DC3792"
+			]
+			dependency_requirement: "one_completed"
+			id: "5CEAC3A713E119BD"
+			tasks: [{
+				id: "7A631DF8F676D12F"
+				item: {
+					Count: 1
+					id: "efn:yamato_dmc_in_sheath"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1E89C6A37F3C67E1"]
+			id: "0381C70A273612E2"
+			tasks: [{
+				id: "7FBDA080702931C0"
+				item: {
+					Count: 1
+					id: "cataclysm:zweiender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["257B73C1A0F5BB4C"]
+			id: "45D2912FEA827210"
+			tasks: [{
+				id: "2EC5A8703A7E72A8"
+				item: "efn:hf_blade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["5CEAC3A713E119BD"]
+			id: "002A1EF5A07CD791"
+			tasks: [{
+				id: "32540BA3C2F44F08"
+				item: {
+					Count: 1
+					id: "efn:yamato_dmc4_in_sheath"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"5CEAC3A713E119BD"
+				"0381C70A273612E2"
+				"45D2912FEA827210"
+				"002A1EF5A07CD791"
+			]
+			dependency_requirement: "one_completed"
+			id: "78BB3247265E476A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6CD4688EE5756938"
+				item: {
+					Count: 1
+					id: "cataclysm:final_fractal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.75d
+		}
+	]
+	title: " &7Caminho do Samurai"
+}

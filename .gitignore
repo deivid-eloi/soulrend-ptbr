@@ -1,0 +1,8 @@
+# Lista branca: so a traducao final vai para o repositorio.
+/*
+!/.gitignore
+!/README.md
+!/dist/
+/dist/*
+!/dist/Soulrend-PTBR.zip
+!/dist/servidor/

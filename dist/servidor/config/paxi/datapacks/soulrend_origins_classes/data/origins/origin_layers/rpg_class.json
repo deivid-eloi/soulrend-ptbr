@@ -1,0 +1,116 @@
+{
+  "order": 467,
+  "replace": true,
+  "allow_random": true,
+  "name": "Classe",
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "classes:feral",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "classes:wildheart"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "classes:feral_beast",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "classes:feral",
+            "layer": "origins:origin",
+            "inverted": true
+          }
+        ]
+      },
+      "origins": [
+        "classes:feral_lock"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "classes:feral_beast",
+            "layer": "origins:origin",
+            "inverted": true
+          },
+          {
+            "type": "origins:origin",
+            "origin": "classes:feral",
+            "layer": "origins:origin",
+            "inverted": true
+          }
+        ]
+      },
+      "origins": [
+        "classes:mage_blood",
+        "classes:mage_ender",
+        "classes:mage_evoker",
+        "classes:mage_fire",
+        "classes:mage_frost",
+        "classes:mage_lightning",
+        "classes:mage_eldritch",
+        "classes:mage_nature",
+        "classes:mage_geo",
+        "classes:mage_aqua",
+        "classes:mage_bard",
+        "classes:healer"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "classes:feral_beast",
+            "layer": "origins:origin",
+            "inverted": true
+          },
+          {
+            "type": "origins:origin",
+            "origin": "medievalorigins:faded",
+            "layer": "origins:origin",
+            "inverted": true
+          },
+          {
+            "type": "origins:origin",
+            "origin": "classes:feral",
+            "layer": "origins:origin",
+            "inverted": true
+          }
+        ]
+      },
+      "origins": [
+        "classes:hunter",
+        "classes:rogue",
+        "classes:tank",
+        "classes:warrior",
+        "classes:samurai",
+        "classes:berserker",
+        "classes:paladino",
+        "classes:reaper",
+        "classes:spellblade",
+        "classes:blade_dancer",
+        "classes:lancer",
+        "classes:beast_master",
+        "classes:shootfighter"
+      ]
+    }
+  ],
+  "auto_choose": true,
+  "exclude_random": [
+    "classes:wildheart"
+  ]
+}

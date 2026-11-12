@@ -1,0 +1,510 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bulwark_and_brawl"
+	group: "544CA56FFEAE0054"
+	icon: {
+		Count: 1
+		id: "cataclysm:bulwark_of_the_flame"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6F8E2D1A4C7B5E90"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["A primeira linha de defesa contra a hostilidade do mundo."]
+			id: "3A1B2C4D5E6F7A01"
+			tasks: [{
+				id: "5A1B2C4D5E6F7B01"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:wooden_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			description: ["Uma faixa frágil e congelada, para focar no combate marcial de mãos nuas."]
+			id: "4B2C3D5E6F7A8B01"
+			tasks: [{
+				id: "6B2C3D5E6F7A8C01"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:frozen_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3A1B2C4D5E6F7A01"]
+			id: "3A1B2C4D5E6F7A02"
+			tasks: [{
+				id: "5A1B2C4D5E6F7B02"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4B2C3D5E6F7A8B01"
+				"321216AE82C1B92C"
+			]
+			dependency_requirement: "one_completed"
+			id: "4B2C3D5E6F7A8B02"
+			tasks: [{
+				id: "6B2C3D5E6F7A8C02"
+				item: {
+					Count: 1
+					id: "epicfight:glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3A1B2C4D5E6F7A02"]
+			id: "455594F24BA1FE59"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4E1E05A7DBF31D4B"
+				item: {
+					Count: 1
+					id: "wom:gesetz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["3A1B2C4D5E6F7A02"]
+			id: "3A1B2C4D5E6F7A04"
+			tasks: [{
+				id: "5A1B2C4D5E6F7B04"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_lightning_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3A1B2C4D5E6F7A02"]
+			id: "3A1B2C4D5E6F7A03"
+			tasks: [{
+				id: "5A1B2C4D5E6F7B03"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_fire_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3A1B2C4D5E6F7A02"]
+			id: "3A1B2C4D5E6F7A05"
+			tasks: [{
+				id: "5A1B2C4D5E6F7B05"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_ice_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B02"]
+			id: "45FE516BF720B273"
+			tasks: [{
+				id: "618ED4061E0828F5"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iron_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B02"]
+			id: "4B2C3D5E6F7A8B03"
+			tasks: [{
+				id: "6B2C3D5E6F7A8C03"
+				item: {
+					Count: 1
+					id: "ef_weapon_extended:iron_knuckles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B02"]
+			id: "24CD9158408ACC9E"
+			tasks: [{
+				id: "308C73BC6DFE7742"
+				item: {
+					Count: 1
+					id: "epicfight_dd:hookclaws"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"3A1B2C4D5E6F7A03"
+				"3A1B2C4D5E6F7A04"
+				"3A1B2C4D5E6F7A05"
+			]
+			dependency_requirement: "one_completed"
+			id: "3A1B2C4D5E6F7A06"
+			tasks: [{
+				id: "5A1B2C4D5E6F7B06"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:igenous_molten_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"45FE516BF720B273"
+				"4B2C3D5E6F7A8B03"
+			]
+			dependency_requirement: "one_completed"
+			id: "4B2C3D5E6F7A8B04"
+			tasks: [{
+				id: "6B2C3D5E6F7A8C04"
+				item: {
+					Count: 1
+					id: "ef_weapon_extended:diamond_knuckles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24CD9158408ACC9E"
+				"4B2C3D5E6F7A8B03"
+			]
+			dependency_requirement: "one_completed"
+			id: "2B1C68751389C175"
+			tasks: [{
+				id: "0C2FCA246109C37F"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:shuko"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3A1B2C4D5E6F7A06"]
+			id: "3A1B2C4D5E6F7A07"
+			tasks: [{
+				id: "5A1B2C4D5E6F7B07"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B04"]
+			id: "4B2C3D5E6F7A8B06"
+			tasks: [{
+				id: "6B2C3D5E6F7A8C06"
+				item: {
+					Count: 1
+					id: "ef_weapon_extended:netherite_knuckles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B1C68751389C175"]
+			id: "4B2C3D5E6F7A8B05"
+			tasks: [{
+				id: "45F572BAC043BBC3"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:shuko_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3A1B2C4D5E6F7A07"]
+			id: "3A1B2C4D5E6F7A08"
+			tasks: [{
+				id: "5A1B2C4D5E6F7B08"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B06"]
+			id: "4B2C3D5E6F7A8B08"
+			tasks: [{
+				id: "6B2C3D5E6F7A8C08"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstone_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B05"]
+			id: "4B2C3D5E6F7A8B07"
+			tasks: [{
+				id: "6B2C3D5E6F7A8C07"
+				item: {
+					Count: 1
+					id: "wom:jabberwocky"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3A1B2C4D5E6F7A08"]
+			description: ["O escudo supremo de defesa absoluta, forjado nas chamas das profundezas do Nether."]
+			id: "3A1B2C4D5E6F7A09"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5A1B2C4D5E6F7B09"
+				item: {
+					Count: 1
+					id: "cataclysm:bulwark_of_the_flame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B08"]
+			id: "4B2C3D5E6F7A8B12"
+			tasks: [{
+				id: "6B2C3D5E6F7A8C12"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B07"]
+			id: "4B2C3D5E6F7A8B10"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6B2C3D5E6F7A8C10"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B07"]
+			id: "4B2C3D5E6F7A8B09"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6B2C3D5E6F7A8C09"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B07"]
+			id: "4B2C3D5E6F7A8B11"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6B2C3D5E6F7A8C11"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B12"]
+			id: "4B2C3D5E6F7A8B13"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6B2C3D5E6F7A8C13"
+				item: {
+					Count: 1
+					id: "cataclysm:tidal_claws"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4B2C3D5E6F7A8B12"]
+			id: "4B2C3D5E6F7A8B14"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6B2C3D5E6F7A8C14"
+				item: {
+					Count: 1
+					id: "efn:nf_claw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.75d
+		}
+	]
+	title: " &7Escudo e Briga"
+}

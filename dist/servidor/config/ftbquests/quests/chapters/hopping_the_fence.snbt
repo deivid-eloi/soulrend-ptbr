@@ -1,0 +1,349 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hopping_the_fence"
+	group: "544CA56FFEAE0054"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:amethyst_rapier"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3B88A0119CF24E8A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "09874340000003E8"
+			tasks: [{
+				id: "09834340000003E9"
+				item: {
+					Count: 1
+					id: "simplyswords:sword_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09874340000003E8"]
+			id: "09874340000003EA"
+			tasks: [{
+				id: "09834340000003EB"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09874340000003EA"]
+			id: "09874340000003EC"
+			tasks: [{
+				id: "09834340000003ED"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:iron_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["09874340000003EA"]
+			id: "09874340000003EE"
+			tasks: [{
+				id: "09834340000003EF"
+				item: {
+					Count: 1
+					id: "refm:iron_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["09874340000003EA"]
+			id: "461017C4F4291037"
+			tasks: [{
+				id: "4DF832EFC8F1515D"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iron_florett"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09874340000003EC"]
+			id: "09874340000003F0"
+			tasks: [{
+				id: "09834340000003F1"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["09874340000003EE"]
+			id: "09874340000003F2"
+			tasks: [{
+				id: "09834340000003F3"
+				item: {
+					Count: 1
+					id: "refm:diamond_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["461017C4F4291037"]
+			id: "2E5425D8F2AD40BD"
+			tasks: [{
+				id: "76818B58D135145C"
+				item: {
+					Count: 1
+					id: "epicfight_dd:diamond_florett"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09874340000003F0"]
+			id: "09874340000003F4"
+			tasks: [{
+				id: "09834340000003F5"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["09874340000003F2"]
+			id: "09874340000003F6"
+			tasks: [{
+				id: "09834340000003F7"
+				item: {
+					Count: 1
+					id: "refm:netherite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2E5425D8F2AD40BD"]
+			id: "1811FFE7BB59F3C1"
+			tasks: [{
+				id: "78D9841BB9FE3CC6"
+				item: {
+					Count: 1
+					id: "epicfight_dd:netherite_florett"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09874340000003F4"]
+			id: "09874340000003F8"
+			tasks: [{
+				id: "09834340000003F9"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["09874340000003F6"]
+			id: "09874340000003FC"
+			tasks: [{
+				id: "09834340000003FD"
+				item: {
+					Count: 1
+					id: "refm:oceanite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1811FFE7BB59F3C1"]
+			id: "09874340000003FA"
+			tasks: [{
+				id: "09834340000003FB"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09874340000003F8"]
+			id: "0987434000000400"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0983434000000401"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["09874340000003FC"]
+			id: "0987434000000404"
+			tasks: [{
+				id: "0983434000000405"
+				item: {
+					Count: 1
+					id: "refm:witherite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["09874340000003FA"]
+			id: "09874340000003FE"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "09834340000003FF"
+				item: {
+					Count: 1
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["09874340000003FA"]
+			id: "0987434000000402"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0983434000000403"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0987434000000404"]
+			id: "0987434000000406"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0983434000000407"
+				item: {
+					Count: 1
+					id: "refm:enderite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.75d
+		}
+	]
+	title: " &7Pulando a Cerca"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Instintos Ferais",
+  "description": "Sua linhagem monstruosa rejeita o treinamento das classes mortais. Você depende apenas de velocidade bruta e violência cinética.",
+  "icon": "minecraft:barrier",
+  "unchoosable": true,
+  "impact": 0,
+  "powers": []
+}

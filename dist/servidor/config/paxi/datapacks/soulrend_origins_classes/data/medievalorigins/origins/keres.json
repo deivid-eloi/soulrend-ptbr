@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "medievalorigins:keres/unholy",
+    "medievalorigins:keres/daughter_of_nyx",
+    "medievalorigins:keres/vicious_fangs",
+    "medievalorigins:keres/soul_devourer",
+    "medievalorigins:keres/bloodthirst",
+    "medievalorigins:keres/eternal_craving",
+    "medievalorigins:keres/primary_active",
+    "medievalorigins:keres/secondary_active",
+    "medievalorigins:revenant/undeadge"
+  ],
+  "icon": "medievalorigins:keres",
+  "order": 1,
+  "impact": 2,
+  "name": "Keres",
+  "description": "§4Você tem sede de sangue!§r\n-§l Visão Geral§r: \n§o§2+ Sustentação, Poder Móvel§r\n§o§6• Cura Única (Almas)§r\n§o§c- Extinta pela Luz do Sol§r\n§o§c- Fome Eterna§r\nAs §lKeres§r são espíritos da morte, filhas de Nyx. São atraídas por mortes sangrentas no campo de batalha e dizem que personificam os fins violentos."
+}

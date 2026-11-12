@@ -1,0 +1,1126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "greatsword"
+	group: "544CA56FFEAE0054"
+	icon: {
+		Count: 1
+		id: "efn:ruinsgreatsword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "306DBD303A03C0E5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "17CEDD669B09E166"
+			tasks: [{
+				id: "2244F02269983F56"
+				item: {
+					Count: 1
+					id: "epicfight:wooden_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17CEDD669B09E166"]
+			id: "01244000000003EC"
+			tasks: [{
+				id: "4DBF1F567044A373"
+				item: {
+					Count: 1
+					id: "epicfight:stone_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.25d
+		}
+		{
+			dependencies: ["17CEDD669B09E166"]
+			id: "0E465C73C2B07DEB"
+			tasks: [{
+				id: "33F79292D51B089D"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_wooden_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["01244000000003EC"]
+			id: "01244000000003F6"
+			tasks: [{
+				id: "1087619E30B44CEF"
+				item: {
+					Count: 1
+					id: "wom:hollow_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["01244000000003EC"]
+			id: "01244000000003F8"
+			tasks: [{
+				id: "7D6067957A0285DA"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["01244000000003EC"]
+			id: "01244000000003F0"
+			tasks: [{
+				id: "61F3B6A57232EC44"
+				item: {
+					Count: 1
+					id: "epicfight:iron_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["01244000000003EC"]
+			id: "01244000000003F4"
+			tasks: [{
+				id: "7F98E74F1BBC3C8A"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E465C73C2B07DEB"]
+			id: "7ED4AF780E1D477A"
+			tasks: [{
+				id: "068F9DE533595159"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_stone_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["01244000000003F6"]
+			id: "01244000000003FA"
+			tasks: [{
+				id: "6E83A97FDEBF9AA4"
+				item: {
+					Count: 1
+					id: "souls_like_bosses:dark_moon_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["01244000000003F8"]
+			id: "01244000000003FC"
+			tasks: [{
+				id: "7A749C443B704B15"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["01244000000003F0"]
+			id: "01244000000003FE"
+			tasks: [{
+				id: "3F82E676F64D50E4"
+				item: {
+					Count: 1
+					id: "epicfight:diamond_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["01244000000003F0"]
+			id: "0124400000000406"
+			tasks: [{
+				id: "3034043C10F383CF"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragon_greatsword_bone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01244000000003F4"]
+			id: "0124400000000402"
+			tasks: [{
+				id: "2F32710553CF21DD"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7ED4AF780E1D477A"]
+			id: "01244000000003F2"
+			tasks: [{
+				id: "1F14B789EF0118ED"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_iron_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["01244000000003FA"]
+			id: "0124400000000412"
+			tasks: [{
+				id: "298B3E0ADF37641D"
+				item: {
+					Count: 1
+					id: "wom:ruine"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"01244000000003FE"
+				"01244000000003FC"
+			]
+			dependency_requirement: "one_completed"
+			id: "012440000000041A"
+			tasks: [{
+				id: "4A06B62C4CF4E6E0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["01244000000003FE"]
+			id: "012440000000040A"
+			tasks: [{
+				id: "6C29B05E5CEB58DF"
+				item: {
+					Count: 1
+					id: "epicfight:netherite_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01244000000003FE"]
+			id: "12F35B1730A81F34"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7AC008074876CA27"
+				item: {
+					Count: 1
+					id: "epicfight_dd:saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01244000000003FE"]
+			id: "7C0D3E44A4D6EA64"
+			tasks: [{
+				id: "25F168DA991641FE"
+				item: {
+					Count: 1
+					id: "epicfight_dd:backhand_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0124400000000406"]
+			id: "0124400000000414"
+			tasks: [{
+				id: "60ED46AC65FFBB06"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragon_greatsword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0124400000000406"]
+			id: "0124400000000416"
+			tasks: [{
+				id: "1D7FE15B2CD3DA04"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragon_greatsword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0124400000000406"]
+			id: "0124400000000418"
+			tasks: [{
+				id: "2A686A211E3148C2"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragon_greatsword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0124400000000402"]
+			id: "012440000000040E"
+			tasks: [{
+				id: "6C442C38E93E3FD5"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["01244000000003F2"]
+			id: "0124400000000400"
+			tasks: [{
+				id: "4B40463A22D3E2C1"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_diamond_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["01244000000003F2"]
+			id: "0124400000000404"
+			tasks: [{
+				id: "0B0E837BFC2FA573"
+				item: {
+					Count: 1
+					id: "soulsweapons:guts_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["01244000000003F2"]
+			id: "0124400000000408"
+			tasks: [{
+				id: "70593C15AC980F05"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_wolf_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"0124400000000412"
+				"012440000000040A"
+			]
+			dependency_requirement: "one_completed"
+			id: "0124400000000422"
+			tasks: [{
+				id: "24F8F4F7C542763E"
+				item: {
+					Count: 1
+					id: "soulsweapons:freyr_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["012440000000041A"]
+			id: "0124400000000426"
+			tasks: [{
+				id: "494D1473D76E22B6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:legionnaire_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.25d
+		}
+		{
+			dependencies: ["7C0D3E44A4D6EA64"]
+			id: "6D744220DD39CA98"
+			tasks: [{
+				id: "5B0FB9055F29F238"
+				item: {
+					Count: 1
+					id: "epicfight_dd:bonecutting_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0124400000000414"]
+			hide_dependent_lines: true
+			id: "012440000000042A"
+			tasks: [{
+				id: "6A2E5A75B9092ECD"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_fire_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0124400000000416"]
+			hide_dependent_lines: true
+			id: "012440000000042C"
+			tasks: [{
+				id: "3E2F4C50EB8B53AF"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_ice_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0124400000000418"]
+			hide_dependent_lines: true
+			id: "012440000000042E"
+			tasks: [{
+				id: "43B9DE1DDB95F136"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragonsteel_lightning_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["012440000000040E"]
+			id: "012440000000041C"
+			tasks: [{
+				id: "25F74E2ECE6CC671"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["012440000000040E"]
+			id: "012440000000041E"
+			tasks: [{
+				id: "18D7B51880CCBD7C"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0124400000000400"]
+			id: "012440000000040C"
+			tasks: [{
+				id: "0BE9402DAACED0DB"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_netherite_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.25d
+		}
+		{
+			dependencies: [
+				"0124400000000404"
+				"0124400000000408"
+			]
+			dependency_requirement: "one_completed"
+			id: "0124400000000410"
+			tasks: [{
+				id: "037DBA76CD0DA4ED"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:large_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0124400000000422"]
+			id: "012440000000043A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "69C55358AEABE1A6"
+				item: {
+					Count: 1
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0124400000000426"]
+			id: "0124400000000434"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "762985EB47C0F7FA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:boreal_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0124400000000426"]
+			id: "0124400000000436"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "45AADBA04A4D049E"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6D744220DD39CA98"]
+			id: "5CFE725D9BB54786"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6C5C692BD8DDC0D3"
+				item: {
+					Count: 1
+					id: "epicfight_dd:eclipse"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"012440000000041C"
+				"012440000000042A"
+				"012440000000042C"
+				"012440000000042E"
+			]
+			dependency_requirement: "one_completed"
+			id: "0124400000000428"
+			tasks: [{
+				id: "69D6B5FB5FF7541E"
+				item: {
+					Count: 1
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["012440000000041C"]
+			id: "0124400000000430"
+			tasks: [{
+				id: "3F8B70FF4A2B8805"
+				item: {
+					Count: 1
+					id: "efn:ruinsgreatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["012440000000041C"]
+			id: "012440000000044A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "020010000000044B"
+				item: {
+					Count: 1
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["012440000000041C"]
+			id: "012440000000043C"
+			tasks: [{
+				id: "6B6354DE06893FA8"
+				item: {
+					Count: 1
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["012440000000040C"]
+			id: "0124400000000424"
+			tasks: [{
+				id: "77B71AC0E28C9156"
+				item: {
+					Count: 1
+					id: "soulsweapons:nights_edge_item"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0124400000000410"]
+			id: "0124400000000420"
+			tasks: [{
+				id: "3FB016124B82FDE3"
+				item: {
+					Count: 1
+					id: "soulsweapons:dawnbreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0124400000000428"]
+			id: "0124400000000446"
+			tasks: [{
+				id: "0200100000000447"
+				item: {
+					Count: 1
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0124400000000428"]
+			id: "0124400000000448"
+			tasks: [{
+				id: "0200100000000449"
+				item: {
+					Count: 1
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0124400000000430"]
+			id: "2C738E2EB278E92B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2D5FB53C08842D9D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_long_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["012440000000043C"]
+			id: "7385E879F74A1B8F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6F768E13DB385678"
+				item: {
+					Count: 1
+					id: "wom:solar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["012440000000043C"]
+			id: "04FABE91461FAF85"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1A2B3C4D5E6F7027"
+				item: {
+					Count: 1
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"012440000000041E"
+				"0124400000000424"
+			]
+			dependency_requirement: "one_completed"
+			id: "0124400000000432"
+			tasks: [{
+				id: "0C3915BF627A43F8"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0124400000000424"]
+			id: "0124400000000440"
+			tasks: [{
+				id: "6975B09764C5F030"
+				item: {
+					Count: 1
+					id: "soulsweapons:excalibur"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0124400000000420"]
+			id: "0124400000000438"
+			tasks: [{
+				id: "14DB2C864D7417D5"
+				item: {
+					Count: 1
+					id: "soulsweapons:empowered_dawnbreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0124400000000446"]
+			id: "0124400000000450"
+			tasks: [{
+				id: "0200100000000451"
+				item: {
+					Count: 1
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0124400000000448"]
+			id: "012440000000044E"
+			tasks: [{
+				id: "020010000000044F"
+				item: {
+					Count: 1
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0124400000000432"]
+			id: "0124400000000444"
+			tasks: [{
+				id: "0200100000000445"
+				item: {
+					Count: 1
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0124400000000440"]
+			id: "012440000000043E"
+			tasks: [{
+				id: "2B0A0F39EE5C2B0B"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0124400000000438"]
+			id: "0124400000000454"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000455"
+				item: {
+					Count: 1
+					id: "cataclysm:the_incinerator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0124400000000444"]
+			id: "012440000000044C"
+			tasks: [{
+				id: "020010000000044D"
+				item: {
+					Count: 1
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["012440000000043E"]
+			id: "0124400000000452"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000453"
+				item: {
+					Count: 1
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0124400000000450"
+				"012440000000044C"
+				"012440000000044E"
+			]
+			dependency_requirement: "one_completed"
+			id: "0124400000000456"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000457"
+				item: {
+					Count: 1
+					id: "efn:broadblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+	]
+	title: " &7Banho de Sangue"
+}

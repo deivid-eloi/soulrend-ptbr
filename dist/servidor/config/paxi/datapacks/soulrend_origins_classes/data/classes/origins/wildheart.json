@@ -1,0 +1,11 @@
+{
+  "name": "Coração Selvagem",
+  "icon": "epicfight:glove",
+  "order": 1,
+  "impact": 2,
+  "powers": [
+    "classes:wildheart/naturalist",
+    "classes:wildheart/frenzy",
+    "classes:wildheart/gorging_on_the_slain"
+  ]
+}

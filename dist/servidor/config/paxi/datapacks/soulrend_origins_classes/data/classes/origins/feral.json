@@ -1,0 +1,13 @@
+{
+  "name": "Fera Selvagem",
+  "icon": "epicfight:glove",
+  "order": 1,
+  "impact": 2,
+  "powers": [
+    "classes:feral/predatory_physique",
+    "classes:feral/relentless_pursuit",
+    "classes:feral/blood_scent",
+    "classes:feral/pounce",
+    "classes:feral/runtime"
+  ]
+}

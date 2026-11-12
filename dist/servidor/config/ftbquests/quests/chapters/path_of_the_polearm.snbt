@@ -1,0 +1,939 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "path_of_the_polearm"
+	group: "544CA56FFEAE0054"
+	icon: {
+		Count: 1
+		id: "cataclysm:astrape"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5B92CF1A8D4E3F01"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Uma arma de alcance rudimentar para manter as feras à distância."]
+			id: "1010101010100001"
+			tasks: [{
+				id: "2020202020200001"
+				item: {
+					Count: 1
+					id: "epicfight:wooden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			description: ["Um dardo de arremesso primitivo e descartável, talhado em calcário."]
+			id: "101010101010002D"
+			tasks: [{
+				id: "202020202020002D"
+				item: {
+					Count: 1
+					id: "alexscaves:limestone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["1010101010100001"]
+			id: "1010101010100002"
+			tasks: [{
+				id: "2020202020200002"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_wooden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1010101010100001"]
+			id: "1010101010100005"
+			tasks: [{
+				id: "2020202020200005"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:stone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1010101010100001"]
+			id: "1010101010100003"
+			tasks: [{
+				id: "2020202020200003"
+				item: {
+					Count: 1
+					id: "epicfight:stone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["101010101010002D"]
+			id: "101010101010002E"
+			tasks: [{
+				id: "202020202020002E"
+				item: {
+					Count: 1
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["1010101010100002"]
+			id: "1010101010100004"
+			tasks: [{
+				id: "2020202020200004"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_stone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1010101010100005"]
+			id: "1010101010100008"
+			tasks: [{
+				id: "2020202020200008"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1010101010100003"]
+			id: "101010101010000A"
+			tasks: [{
+				id: "202020202020000A"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1010101010100003"]
+			id: "35A8D4662DE981AD"
+			tasks: [{
+				id: "62FF1C508250AF37"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iron_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1010101010100003"]
+			id: "1010101010100006"
+			tasks: [{
+				id: "2020202020200006"
+				item: {
+					Count: 1
+					id: "epicfight:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1010101010100003"]
+			id: "1010101010100009"
+			tasks: [{
+				id: "2020202020200009"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["101010101010002E"]
+			description: ["Uma lança de arremesso pré-histórica e de alto dano, impregnada de força tectônica."]
+			id: "101010101010002F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "202020202020002F"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["1010101010100004"]
+			id: "1010101010100007"
+			tasks: [{
+				id: "2020202020200007"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1010101010100008"]
+			id: "101010101010000D"
+			tasks: [{
+				id: "202020202020000D"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["101010101010000A"]
+			id: "101010101010000F"
+			tasks: [{
+				id: "202020202020000F"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35A8D4662DE981AD"]
+			id: "4432B6D826558DDD"
+			tasks: [{
+				id: "5DD553655A0A9B48"
+				item: {
+					Count: 1
+					id: "epicfight_dd:diamond_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1010101010100006"]
+			id: "101010101010000B"
+			tasks: [{
+				id: "202020202020000B"
+				item: {
+					Count: 1
+					id: "epicfight:diamond_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1010101010100009"]
+			id: "101010101010000E"
+			tasks: [{
+				id: "202020202020000E"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1010101010100007"]
+			id: "101010101010000C"
+			tasks: [{
+				id: "202020202020000C"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_diamond_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["101010101010000D"]
+			id: "1010101010100012"
+			tasks: [{
+				id: "2020202020200012"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["101010101010000F"]
+			id: "1010101010100014"
+			tasks: [{
+				id: "2020202020200014"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4432B6D826558DDD"]
+			id: "7D00968984F8CD24"
+			tasks: [{
+				id: "3BF48218D8A41C75"
+				item: {
+					Count: 1
+					id: "epicfight_dd:netherite_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["101010101010000B"]
+			id: "1010101010100010"
+			tasks: [{
+				id: "2020202020200010"
+				item: {
+					Count: 1
+					id: "epicfight:netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["101010101010000E"]
+			id: "1010101010100013"
+			tasks: [{
+				id: "2020202020200013"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["101010101010000C"]
+			id: "1010101010100011"
+			tasks: [{
+				id: "2020202020200011"
+				item: {
+					Count: 1
+					id: "cdmoveset:s_netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1010101010100012"]
+			id: "1010101010100018"
+			tasks: [{
+				id: "2020202020200018"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1010101010100012"]
+			id: "1010101010100019"
+			tasks: [{
+				id: "2020202020200019"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1010101010100014"]
+			id: "101010101010001C"
+			tasks: [{
+				id: "202020202020001C"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1010101010100014"]
+			id: "101010101010001D"
+			tasks: [{
+				id: "202020202020001D"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7D00968984F8CD24"]
+			id: "020C3BD11AD18A2E"
+			tasks: [{
+				id: "4CEF737CF85BAAC1"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iudex_gundyr_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1010101010100010"]
+			id: "1010101010100015"
+			tasks: [{
+				id: "2020202020200015"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1010101010100010"]
+			id: "5309E0D3066DB3B6"
+			tasks: [{
+				id: "2A1D7B97762AEA48"
+				item: {
+					Count: 1
+					id: "epicfight_dd:nightingale"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1010101010100013"]
+			id: "101010101010001A"
+			tasks: [{
+				id: "202020202020001A"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1010101010100013"]
+			id: "101010101010001B"
+			tasks: [{
+				id: "202020202020001B"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1010101010100011"]
+			id: "1010101010100016"
+			tasks: [{
+				id: "2020202020200016"
+				item: {
+					Count: 1
+					id: "soulsweapons:comet_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1010101010100011"]
+			id: "1010101010100017"
+			tasks: [{
+				id: "2020202020200017"
+				item: {
+					Count: 1
+					id: "wom:agony"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["1010101010100018"]
+			id: "1010101010100022"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2020202020200022"
+				item: {
+					Count: 1
+					id: "simplyswords:magispear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1010101010100019"]
+			id: "1010101010100023"
+			tasks: [{
+				id: "2020202020200023"
+				item: {
+					Count: 1
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["101010101010001C"]
+			id: "1010101010100027"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2020202020200027"
+				item: {
+					Count: 1
+					id: "efn:crescent_moon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"101010101010001D"
+				"020C3BD11AD18A2E"
+			]
+			dependency_requirement: "one_completed"
+			id: "1010101010100028"
+			tasks: [{
+				id: "2020202020200028"
+				item: {
+					Count: 1
+					id: "soulsweapons:glaive_of_hodir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1010101010100015"]
+			id: "101010101010001E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "202020202020001E"
+				item: {
+					Count: 1
+					id: "cataclysm:astrape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"101010101010001A"
+				"5309E0D3066DB3B6"
+			]
+			dependency_requirement: "one_completed"
+			id: "1010101010100026"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2020202020200026"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["101010101010001A"]
+			id: "1010101010100024"
+			tasks: [{
+				id: "2020202020200024"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["101010101010001B"]
+			id: "1010101010100025"
+			tasks: [{
+				id: "2020202020200025"
+				item: {
+					Count: 1
+					id: "cataclysm:soul_render"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1010101010100016"]
+			id: "1010101010100020"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2020202020200020"
+				item: {
+					Count: 1
+					id: "soulsweapons:dragonslayer_swordspear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["1010101010100016"]
+			id: "1010101010100021"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2020202020200021"
+				item: {
+					Count: 1
+					id: "soulsweapons:draupnir_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["1010101010100017"]
+			id: "101010101010001F"
+			tasks: [{
+				id: "202020202020001F"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["1010101010100023"]
+			id: "101010101010002A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "202020202020002A"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1010101010100028"]
+			id: "101010101010002C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "202020202020002C"
+				item: {
+					Count: 1
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1010101010100025"
+				"1010101010100024"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Forjado a partir da alma gélida da Icewhisper ou do poder abissal de corte do Renderizador de Almas."]
+			id: "101010101010002B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "202020202020002B"
+				item: {
+					Count: 1
+					id: "simplyswords:thunderbrand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["101010101010001F"]
+			id: "1010101010100029"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2020202020200029"
+				item: {
+					Count: 1
+					id: "efn:meen_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.75d
+		}
+	]
+	title: " &7Reis do Campo de Batalha"
+}

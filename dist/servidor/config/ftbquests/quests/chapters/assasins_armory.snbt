@@ -1,0 +1,916 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "assasins_armory"
+	group: "544CA56FFEAE0054"
+	icon: {
+		Count: 1
+		id: "epicfight_awaken:darknight_pursuiters"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0BC78B10811A24E4"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "356B62448EEF3AE4"
+			tasks: [{
+				id: "352434FE5BF317C9"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["356B62448EEF3AE4"]
+			id: "01001000000003EA"
+			tasks: [{
+				id: "02001000000003EB"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:stone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["01001000000003EA"]
+			id: "01001000000003F2"
+			tasks: [{
+				id: "02001000000003F3"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["01001000000003EA"]
+			id: "01001000000003EE"
+			tasks: [{
+				id: "02001000000003EF"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01001000000003EA"]
+			id: "3A760FD8A15803A9"
+			tasks: [{
+				id: "52E73C907E0E8B40"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["01001000000003EA"]
+			id: "01001000000003F0"
+			tasks: [{
+				id: "02001000000003F1"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["01001000000003EA"]
+			id: "01001000000003EC"
+			tasks: [{
+				id: "02001000000003ED"
+				item: {
+					Count: 1
+					id: "epicfight:iron_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["01001000000003F2"]
+			id: "01001000000003FE"
+			tasks: [{
+				id: "02001000000003FF"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["01001000000003EE"]
+			id: "01001000000003F8"
+			tasks: [{
+				id: "02001000000003F9"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["01001000000003EE"]
+			id: "01001000000003FA"
+			tasks: [{
+				id: "02001000000003FB"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3A760FD8A15803A9"]
+			id: "5C33A9EC3AB034C2"
+			tasks: [{
+				id: "6D9C38462B53FD14"
+				item: {
+					Count: 1
+					id: "epicfight_dd:diamond_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["01001000000003F0"]
+			id: "01001000000003FC"
+			tasks: [{
+				id: "02001000000003FD"
+				item: {
+					Count: 1
+					id: "magistuarmory:diamond_shortsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["01001000000003EC"]
+			id: "01001000000003F4"
+			tasks: [{
+				id: "02001000000003F5"
+				item: {
+					Count: 1
+					id: "epicfight:diamond_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["01001000000003EC"]
+			id: "01001000000003F6"
+			tasks: [{
+				id: "02001000000003F7"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["01001000000003FE"]
+			id: "010010000000040A"
+			tasks: [{
+				id: "020010000000040B"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["01001000000003F8"]
+			id: "0100100000000404"
+			tasks: [{
+				id: "0200100000000405"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["01001000000003FA"]
+			id: "0100100000000406"
+			tasks: [{
+				id: "0200100000000407"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:sai_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["5C33A9EC3AB034C2"]
+			id: "3EB1188C11A3ED68"
+			tasks: [{
+				id: "637A47840285AD02"
+				item: {
+					Count: 1
+					id: "epicfight_dd:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["01001000000003FC"]
+			id: "0100100000000408"
+			tasks: [{
+				id: "0200100000000409"
+				item: {
+					Count: 1
+					id: "magistuarmory:netherite_shortsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["01001000000003F4"]
+			id: "0100100000000400"
+			tasks: [{
+				id: "0200100000000401"
+				item: {
+					Count: 1
+					id: "epicfight:netherite_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["01001000000003F6"]
+			id: "0100100000000402"
+			tasks: [{
+				id: "0200100000000403"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_steel_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["010010000000040A"]
+			id: "010010000000041A"
+			tasks: [{
+				id: "020010000000041B"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["010010000000040A"]
+			id: "010010000000041C"
+			tasks: [{
+				id: "020010000000041D"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0100100000000404"]
+			id: "010010000000040C"
+			tasks: [{
+				id: "020010000000040D"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["0100100000000406"]
+			id: "010010000000040E"
+			tasks: [{
+				id: "020010000000040F"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"0100100000000408"
+				"3EB1188C11A3ED68"
+			]
+			dependency_requirement: "one_completed"
+			id: "0100100000000416"
+			tasks: [{
+				id: "0200100000000417"
+				item: {
+					Count: 1
+					id: "soulsweapons:bluemoon_shortsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"0100100000000408"
+				"3EB1188C11A3ED68"
+			]
+			dependency_requirement: "one_completed"
+			id: "0100100000000418"
+			tasks: [{
+				id: "0200100000000419"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragon_dagger_bone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0100100000000400"]
+			id: "0100100000000410"
+			tasks: [{
+				id: "0200100000000411"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:neptunium_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0100100000000402"]
+			id: "0100100000000414"
+			tasks: [{
+				id: "0200100000000415"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0100100000000402"]
+			id: "5A47AC87CCDC3F57"
+			tasks: [{
+				id: "286E0FD7B2BC5123"
+				item: {
+					Count: 1
+					id: "epicfight_dd:blood_ritus_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0100100000000402"]
+			id: "0100100000000412"
+			tasks: [{
+				id: "0200100000000413"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ceremonial_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0100100000000402"]
+			id: "12790904F8365F39"
+			tasks: [{
+				id: "7F351B586F8325B6"
+				item: {
+					Count: 1
+					id: "epicfight_dd:night_ritus_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["010010000000041A"]
+			id: "0100100000000434"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000435"
+				item: {
+					Count: 1
+					id: "efn:nf_shortsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["010010000000041A"]
+			id: "0100100000000436"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000437"
+				item: {
+					Count: 1
+					id: "efn:nf_shortsword_2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["010010000000041C"]
+			id: "0100100000000430"
+			tasks: [{
+				id: "0200100000000431"
+				item: {
+					Count: 1
+					id: "soulsweapons:rageblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["010010000000041C"]
+			id: "0100100000000432"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000433"
+				item: {
+					Count: 1
+					id: "soulsweapons:lich_bane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["010010000000040C"]
+			id: "010010000000041E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "020010000000041F"
+				item: {
+					Count: 1
+					id: "efn:nf_dual_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["010010000000040E"]
+			id: "0100100000000420"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000421"
+				item: {
+					Count: 1
+					id: "simplyswords:stormbringer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["0100100000000416"]
+			id: "0100100000000428"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000429"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonlight_shortsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0100100000000418"]
+			id: "010010000000042A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "020010000000042B"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragon_dagger_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0100100000000418"]
+			id: "010010000000042C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "020010000000042D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragon_dagger_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0100100000000418"]
+			id: "010010000000042E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "020010000000042F"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:dragon_dagger_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0100100000000410"]
+			id: "0100100000000422"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000423"
+				item: {
+					Count: 1
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"5A47AC87CCDC3F57"
+				"0100100000000414"
+			]
+			dependency_requirement: "one_completed"
+			id: "0100100000000426"
+			tasks: [{
+				id: "0200100000000427"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"12790904F8365F39"
+				"0100100000000412"
+			]
+			dependency_requirement: "one_completed"
+			id: "0100100000000424"
+			tasks: [{
+				id: "0200100000000425"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:slimy_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0100100000000430"]
+			id: "010010000000043A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "020010000000043B"
+				item: {
+					Count: 1
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.75d
+		}
+		{
+			dependencies: [
+				"0100100000000424"
+				"0100100000000426"
+			]
+			dependency_requirement: "one_completed"
+			id: "0100100000000438"
+			tasks: [{
+				id: "0200100000000439"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0100100000000438"]
+			id: "010010000000043E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "020010000000043F"
+				item: {
+					Count: 1
+					id: "efn:exsiliumgladius"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["0100100000000438"]
+			id: "0100100000000440"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0200100000000441"
+				item: {
+					Count: 1
+					id: "efn:fire_exsiliumgladius"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0100100000000438"]
+			id: "010010000000043C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "020010000000043D"
+				item: {
+					Count: 1
+					id: "epicfight_awaken:darknight_pursuiters"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.75d
+		}
+	]
+	title: " &7Arsenal do Assassino"
+}

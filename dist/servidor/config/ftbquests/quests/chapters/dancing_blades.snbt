@@ -1,0 +1,671 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dancing_blades"
+	group: "544CA56FFEAE0054"
+	icon: {
+		Count: 1
+		id: "wom:moonless"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "552895AF7EBCCA4B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "70626CEDFD0A31F9"
+			tasks: [{
+				id: "72B0220FE4C54656"
+				item: {
+					Count: 1
+					id: "wom:wooden_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			id: "4D2924180EA1883E"
+			tasks: [{
+				id: "071FB69AEBC07D51"
+				item: {
+					Count: 1
+					id: "epicfight_dd:wooden_battlestaff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["70626CEDFD0A31F9"]
+			id: "30C25C6F71B751F5"
+			tasks: [{
+				id: "340BAB3FBC63DDA9"
+				item: {
+					Count: 1
+					id: "wom:stone_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D2924180EA1883E"]
+			id: "5899075FE01DDD1F"
+			tasks: [{
+				id: "41C6BC0308664532"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iron_battlestaff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["30C25C6F71B751F5"]
+			id: "1001000000000003"
+			tasks: [{
+				id: "2001000000000003"
+				item: {
+					Count: 1
+					id: "wom:iron_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5899075FE01DDD1F"]
+			id: "74891D635D904D3F"
+			tasks: [{
+				id: "04F9D45DEE8B38E9"
+				item: {
+					Count: 1
+					id: "epicfight_dd:diamond_battlestaff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["1001000000000003"]
+			id: "1001000000000007"
+			tasks: [{
+				id: "2001000000000007"
+				item: {
+					Count: 1
+					id: "wom:diamond_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["1001000000000003"]
+			id: "1001000000000004"
+			tasks: [{
+				id: "2001000000000004"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1001000000000003"]
+			id: "1001000000000006"
+			tasks: [{
+				id: "2001000000000006"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1001000000000003"]
+			id: "1001000000000005"
+			tasks: [{
+				id: "2001000000000005"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["74891D635D904D3F"]
+			id: "01674FFB5107B073"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "132BB672EFFAC856"
+				item: {
+					Count: 1
+					id: "epicfight_dd:netherite_battlestaff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["74891D635D904D3F"]
+			id: "2D780507CE914D4A"
+			tasks: [{
+				id: "69C47533C630F879"
+				item: {
+					Count: 1
+					id: "epicfight_dd:amethyst_battlestaff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1001000000000007"]
+			id: "1001000000000011"
+			tasks: [{
+				id: "2001000000000011"
+				item: {
+					Count: 1
+					id: "wom:netherite_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["1001000000000004"]
+			id: "1001000000000008"
+			tasks: [{
+				id: "2001000000000008"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1001000000000006"]
+			id: "1001000000000010"
+			tasks: [{
+				id: "2001000000000010"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1001000000000005"]
+			id: "1001000000000009"
+			tasks: [{
+				id: "2001000000000009"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2D780507CE914D4A"]
+			id: "39606C22628C6FA9"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "676CCF71E3FE55B5"
+				item: {
+					Count: 1
+					id: "epicfight_dd:poleblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1001000000000011"]
+			id: "1001000000000015"
+			tasks: [{
+				id: "2001000000000015"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1001000000000011"]
+			id: "1001000000000022"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2001000000000022"
+				item: {
+					Count: 1
+					id: "wom:napoleon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1001000000000008"]
+			id: "1001000000000012"
+			tasks: [{
+				id: "2001000000000012"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1001000000000010"]
+			id: "1001000000000014"
+			tasks: [{
+				id: "2001000000000014"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1001000000000009"]
+			id: "1001000000000013"
+			tasks: [{
+				id: "2001000000000013"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1001000000000015"]
+			id: "1001000000000029"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Puro caos."
+			tasks: [{
+				id: "2001000000000029"
+				item: {
+					Count: 1
+					id: "soulsweapons:withered_wabbajack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1001000000000012"]
+			id: "1001000000000016"
+			tasks: [{
+				id: "2001000000000016"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1001000000000012"]
+			id: "1001000000000017"
+			tasks: [{
+				id: "2001000000000017"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1001000000000014"]
+			id: "1001000000000020"
+			tasks: [{
+				id: "2001000000000020"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1001000000000014"]
+			id: "1001000000000021"
+			tasks: [{
+				id: "2001000000000021"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1001000000000013"]
+			id: "1001000000000018"
+			tasks: [{
+				id: "2001000000000018"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1001000000000013"]
+			id: "1001000000000019"
+			tasks: [{
+				id: "2001000000000019"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"1001000000000017"
+				"1001000000000016"
+			]
+			dependency_requirement: "one_completed"
+			id: "1001000000000023"
+			tasks: [{
+				id: "2001000000000023"
+				item: {
+					Count: 1
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1001000000000020"]
+			id: "1001000000000028"
+			tasks: [{
+				id: "2001000000000028"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1001000000000021"]
+			id: "1001000000000027"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2001000000000027"
+				item: {
+					Count: 1
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1001000000000018"]
+			id: "1001000000000025"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2001000000000025"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1001000000000019"]
+			id: "1001000000000024"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2001000000000024"
+				item: {
+					Count: 1
+					id: "simplyswords:magiblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1001000000000019"]
+			id: "1001000000000026"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2001000000000026"
+				item: {
+					Count: 1
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1001000000000023"]
+			id: "1001000000000030"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2001000000000030"
+				item: {
+					Count: 1
+					id: "wom:moonless"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1001000000000028"]
+			id: "1001000000000031"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2001000000000031"
+				item: {
+					Count: 1
+					id: "wom:ender_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+	]
+	title: " &7Caminho das Lâminas Dançantes"
+}

@@ -1,0 +1,516 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "demonic_implements"
+	group: "544CA56FFEAE0054"
+	icon: {
+		Count: 1
+		id: "soulsweapons:darkin_scythe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1DB4145182BD6FDB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01234760000003E8"
+			tasks: [{
+				id: "09032459000003E9"
+				item: {
+					Count: 1
+					id: "immersive_weathering:ice_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["01234760000003E8"]
+			id: "01234760000003EA"
+			tasks: [{
+				id: "09032459000003EB"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["01234760000003EA"]
+			id: "01234760000003EE"
+			tasks: [{
+				id: "09032459000003EF"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["01234760000003EA"]
+			id: "4EDD8027A130B72D"
+			tasks: [{
+				id: "4D18B7A758872E23"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iron_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["01234760000003EA"]
+			id: "01234760000003EC"
+			tasks: [{
+				id: "09032459000003ED"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01234760000003EE"]
+			id: "01234760000003F2"
+			tasks: [{
+				id: "09032459000003F3"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:diamond_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["4EDD8027A130B72D"]
+			id: "2F20E6A8C2CEAA32"
+			tasks: [{
+				id: "7433581F35E32F56"
+				item: {
+					Count: 1
+					id: "epicfight_dd:diamond_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["01234760000003EC"]
+			id: "12A7BB7E27CE3A34"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5F33D127A727AD4F"
+				item: {
+					Count: 1
+					id: "epicfight_dd:scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01234760000003EC"]
+			id: "01234760000003F0"
+			tasks: [{
+				id: "09032459000003F1"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["01234760000003F2"]
+			id: "01234760000003F4"
+			tasks: [{
+				id: "09032459000003F5"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["2F20E6A8C2CEAA32"]
+			id: "72C493EE7D8F4651"
+			tasks: [{
+				id: "7D93B16C3B30E5D7"
+				item: {
+					Count: 1
+					id: "epicfight_dd:netherite_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F20E6A8C2CEAA32"]
+			id: "3703B23AC6F8E56F"
+			tasks: [{
+				id: "7E35203489B22D68"
+				item: {
+					Count: 1
+					id: "epicfight_dd:war_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01234760000003F0"]
+			id: "01234760000003F8"
+			tasks: [{
+				id: "09032459000003F9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:decrepit_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["01234760000003F0"]
+			id: "01234760000003F6"
+			tasks: [{
+				id: "09032459000003F7"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["01234760000003F4"]
+			id: "01234760000003FA"
+			tasks: [{
+				id: "09032459000003FB"
+				item: {
+					Count: 1
+					id: "knavesneeds:deeperdarker/warden/scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"01234760000003F4"
+				"72C493EE7D8F4651"
+			]
+			dependency_requirement: "one_completed"
+			id: "01234760000003FC"
+			tasks: [{
+				id: "09032459000003FD"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"01234760000003F8"
+				"3703B23AC6F8E56F"
+			]
+			dependency_requirement: "one_completed"
+			id: "0123476000000400"
+			tasks: [{
+				id: "0903245900000401"
+				item: {
+					Count: 1
+					id: "epicfightx:eternal_night_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01234760000003F8"]
+			id: "0123476000000402"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0903245900000403"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:hellrazor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01234760000003F6"]
+			id: "01234760000003FE"
+			tasks: [{
+				id: "09032459000003FF"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["01234760000003FA"]
+			id: "0123476000000408"
+			tasks: [{
+				id: "0903245900000409"
+				item: {
+					Count: 1
+					id: "soulsweapons:forlorn_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01234760000003FC"]
+			id: "0123476000000406"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0903245900000407"
+				item: {
+					Count: 1
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0123476000000400"]
+			id: "0123476000000404"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0903245900000405"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01234760000003FE"]
+			id: "012347600000040A"
+			tasks: [{
+				id: "090324590000040B"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_scythe_pre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0123476000000408"]
+			id: "0123476000000410"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0903245900000411"
+				item: {
+					Count: 1
+					id: "soulsweapons:soul_reaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["012347600000040A"]
+			id: "012347600000040E"
+			tasks: [{
+				id: "090324590000040F"
+				item: {
+					Count: 1
+					id: "soulsweapons:shadow_assassin_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["012347600000040A"]
+			id: "012347600000040C"
+			tasks: [{
+				id: "090324590000040D"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["012347600000040E"]
+			id: "0123476000000414"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0903245900000415"
+				item: {
+					Count: 1
+					id: "wom:antitheus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["012347600000040C"]
+			id: "0123476000000412"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0903245900000413"
+				item: {
+					Count: 1
+					id: "efn:crimson_moon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+	]
+	title: " &7Instrumentos Demoníacos"
+}

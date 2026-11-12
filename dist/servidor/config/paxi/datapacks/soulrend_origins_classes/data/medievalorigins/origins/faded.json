@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "medievalorigins:faded/smart",
+    "medievalorigins:faded/weak",
+    "medievalorigins:faded/sickly",
+    "medievalorigins:faded/ghostly",
+    "medievalorigins:faded/unreal"
+  ],
+  "icon": "efn:deepdark_heart",
+  "order": 1,
+  "impact": 3,
+  "name": "Esvaecido"
+}

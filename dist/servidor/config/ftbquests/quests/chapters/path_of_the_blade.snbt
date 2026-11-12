@@ -1,0 +1,901 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "path_of_the_blade"
+	group: "544CA56FFEAE0054"
+	icon: "efn:sword_of_pioneer"
+	id: "7C3E1B9A2F4D8E05"
+	order_index: 10
+	quest_links: [{
+		id: "367C23FAB1465B9E"
+		linked_quest: "455594F24BA1FE59"
+		x: 3.75d
+		y: -6.0d
+	}]
+	quests: [
+		{
+			description: ["O armamento básico de todo guerreiro que pisa na natureza hostil."]
+			id: "1A00000000000001"
+			tasks: [{
+				id: "2A00000000000001"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1A00000000000001"]
+			description: ["Um punho estilhaçado, recolhido de ruínas esquecidas, esperando para ser reforjado."]
+			id: "1A00000000000003"
+			tasks: [{
+				id: "2A00000000000003"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:broken_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A00000000000001"]
+			id: "1A00000000000002"
+			tasks: [{
+				id: "2A00000000000002"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A00000000000003"]
+			id: "1A00000000000006"
+			tasks: [{
+				id: "2A00000000000006"
+				item: {
+					Count: 1
+					id: "iceandfire:dread_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A00000000000002"]
+			id: "1A00000000000004"
+			tasks: [{
+				id: "2A00000000000004"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A00000000000002"]
+			id: "1EF5BBABFEF0F91A"
+			tasks: [{
+				id: "507117B6CAA99D1A"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iron_messer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A00000000000002"]
+			id: "77557B3CE02E872E"
+			tasks: [{
+				id: "74FF5533CE33AF6E"
+				item: {
+					Count: 1
+					id: "epicfight_dd:iron_light_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A00000000000002"]
+			description: ["Uma lâmina curta, antiga e ágil, que brilha levemente na presença de inimigos."]
+			id: "1A00000000000005"
+			tasks: [{
+				id: "2A00000000000005"
+				item: {
+					Count: 1
+					id: "soulsweapons:sting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1A00000000000004"]
+			id: "1A00000000000007"
+			tasks: [{
+				id: "2A00000000000007"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EF5BBABFEF0F91A"]
+			id: "51214932883525BE"
+			tasks: [{
+				id: "480B718B7BA5E399"
+				item: {
+					Count: 1
+					id: "epicfight_dd:diamond_messer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77557B3CE02E872E"]
+			id: "0108751A8466E111"
+			tasks: [{
+				id: "1C4E2B3BA050E51E"
+				item: {
+					Count: 1
+					id: "epicfight_dd:diamond_light_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A00000000000005"]
+			id: "1A0000000000000C"
+			tasks: [{
+				id: "2A0000000000000C"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A00000000000005"]
+			id: "1A00000000000008"
+			tasks: [{
+				id: "2A00000000000008"
+				item: {
+					Count: 1
+					id: "soulsweapons:holy_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1A00000000000007"]
+			id: "1A0000000000000E"
+			tasks: [{
+				id: "2A0000000000000E"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_bone_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A00000000000007"]
+			id: "1A00000000000009"
+			tasks: [{
+				id: "2A00000000000009"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1A00000000000007"]
+			id: "1A0000000000000A"
+			tasks: [{
+				id: "2A0000000000000A"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A00000000000007"]
+			id: "1A0000000000000B"
+			tasks: [{
+				id: "2A0000000000000B"
+				item: {
+					Count: 1
+					id: "soulsweapons:featherlight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51214932883525BE"]
+			id: "043DFF6400690F49"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "62C194974E2652CB"
+				item: {
+					Count: 1
+					id: "epicfight_dd:netherite_messer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0108751A8466E111"]
+			id: "5EC279112CC1D1FD"
+			tasks: [{
+				id: "3394766685F7E615"
+				item: {
+					Count: 1
+					id: "epicfight_dd:netherite_light_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A0000000000000C"]
+			id: "1A00000000000012"
+			tasks: [{
+				id: "2A00000000000012"
+				item: {
+					Count: 1
+					id: "soulsweapons:holy_moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A00000000000008"]
+			id: "1A0000000000000D"
+			tasks: [{
+				id: "2A0000000000000D"
+				item: {
+					Count: 1
+					id: "soulsweapons:skofnung"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1A0000000000000E"]
+			id: "1A00000000000017"
+			tasks: [{
+				id: "2A00000000000017"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:oath_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A00000000000009"]
+			id: "1A00000000000015"
+			tasks: [{
+				id: "2A00000000000015"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A00000000000009"]
+			id: "1A00000000000016"
+			tasks: [{
+				id: "2A00000000000016"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A0000000000000A"]
+			id: "1A0000000000000F"
+			tasks: [{
+				id: "2A0000000000000F"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A0000000000000A"]
+			id: "1A00000000000010"
+			tasks: [{
+				id: "2A00000000000010"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A0000000000000A"]
+			id: "1A00000000000011"
+			tasks: [{
+				id: "2A00000000000011"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A0000000000000B"]
+			id: "1A00000000000013"
+			tasks: [{
+				id: "2A00000000000013"
+				item: {
+					Count: 1
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5EC279112CC1D1FD"]
+			id: "19F464C2B05DCDE0"
+			tasks: [{
+				id: "3EE7A41B5D8F0D27"
+				item: {
+					Count: 1
+					id: "epicfight_dd:milady"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A00000000000012"]
+			id: "1A00000000000018"
+			tasks: [{
+				id: "2A00000000000018"
+				item: {
+					Count: 1
+					id: "soulsweapons:pure_moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A0000000000000D"]
+			id: "1A00000000000014"
+			tasks: [{
+				id: "2A00000000000014"
+				item: {
+					Count: 1
+					id: "soulsweapons:bloodthirster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1A00000000000017"]
+			id: "1A0000000000001C"
+			tasks: [{
+				id: "2A0000000000001C"
+				item: {
+					Count: 1
+					id: "soulsweapons:nightlords_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1A00000000000015"
+				"1A00000000000017"
+				"1A00000000000006"
+				"455594F24BA1FE59"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Uma lâmina poderosa. Quando reunida com sua contraparte, Gesetz, torna-se uma arma de violência desenfreada."]
+			id: "1A0000000000001D"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A0000000000001D"
+				item: {
+					Count: 1
+					id: "wom:herrscher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A00000000000016"]
+			hide_dependent_lines: true
+			id: "1A0000000000001B"
+			tasks: [{
+				id: "2A0000000000001B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:spellbreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A0000000000000F"]
+			id: "1A00000000000020"
+			tasks: [{
+				id: "2A00000000000020"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A00000000000010"]
+			id: "1A00000000000021"
+			tasks: [{
+				id: "2A00000000000021"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A00000000000011"]
+			id: "1A00000000000022"
+			tasks: [{
+				id: "2A00000000000022"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A00000000000013"]
+			id: "1A00000000000019"
+			tasks: [{
+				id: "2A00000000000019"
+				item: {
+					Count: 1
+					id: "soulsweapons:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19F464C2B05DCDE0"]
+			id: "73C8EAB68A74BDDF"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "30C1726F3C6D36E4"
+				item: {
+					Count: 1
+					id: "epicfight_dd:vitreus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A00000000000018"]
+			id: "1A0000000000001E"
+			tasks: [{
+				id: "2A0000000000001E"
+				item: {
+					Count: 1
+					id: "soulsweapons:bluemoon_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A00000000000014"]
+			id: "1A0000000000001A"
+			tasks: [{
+				id: "2A0000000000001A"
+				item: {
+					Count: 1
+					id: "soulsweapons:crucible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1A0000000000001C"]
+			id: "1A00000000000027"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A00000000000027"
+				item: {
+					Count: 1
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1A00000000000020"
+				"1A0000000000001B"
+				"1A00000000000021"
+				"1A00000000000022"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Uma lâmina astral suprema, nascida da união da abjuração Quebra-Feitiços com elementos primordiais de aço dracônico."]
+			id: "1A0000000000002A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A0000000000002A"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A00000000000019"]
+			id: "1A00000000000024"
+			tasks: [{
+				id: "2A00000000000024"
+				item: {
+					Count: 1
+					id: "iceandfire:dread_knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A0000000000001E"]
+			id: "1A00000000000023"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A00000000000023"
+				item: {
+					Count: 1
+					id: "soulsweapons:dark_moon_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A0000000000001A"]
+			id: "1A0000000000001F"
+			tasks: [{
+				id: "2A0000000000001F"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1A00000000000024"]
+			description: ["A coroa sombria do Exército do Pavor, que irradia uma aura de gelo eterno letal."]
+			id: "1A00000000000028"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A00000000000028"
+				item: {
+					Count: 1
+					id: "iceandfire:dread_queen_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A0000000000001F"]
+			id: "1A00000000000025"
+			tasks: [{
+				id: "2A00000000000025"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_sovereign_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1A0000000000001F"]
+			id: "1A00000000000026"
+			tasks: [{
+				id: "2A00000000000026"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_bloodweave_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1A00000000000026"
+				"1A00000000000025"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Forjado a partir das linhagens Soberana ou Tecelã de Sangue. Sirva à tua nação!"]
+			id: "1A00000000000029"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A00000000000029"
+				item: "efn:sword_of_pioneer"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+	]
+	title: " &7Batalhão dos Juramentados da Lâmina"
+}
