@@ -18,7 +18,7 @@ Traduz itens, armas, feitiços, classes e raças, a tela de personagem, as miss�
 3. No `server.properties`:
    ```properties
    resource-pack=https://github.com/deivid-eloi/soulrend-ptbr/raw/main/dist/Soulrend-PTBR.zip
-   resource-pack-sha1=454fc6fe9db8282ca6b6d882608b3e6e1a7b8659
+   resource-pack-sha1=a3d204bd202e9f44555082dd32f669d316ce54f3
    require-resource-pack=false
    resource-pack-prompt=Tradução PT-BR do modpack
    ```
