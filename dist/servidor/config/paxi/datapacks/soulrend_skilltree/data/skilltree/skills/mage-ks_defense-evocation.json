@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:mage-ks_defense-evocation",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "52f42616-9074-42a2-973e-30a8b6e5586e",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Evoker"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_green.png",
+  "iconTexture": "irons_spellbooks:textures/mob_effect/fortify.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 650.9905,
+  "positionY": -39.827007,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

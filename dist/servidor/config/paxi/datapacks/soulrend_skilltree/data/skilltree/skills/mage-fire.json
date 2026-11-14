@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-fire",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "0e169ce2-ea4a-4c9e-a30e-075e9f930cbf",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_defense-fire",
+    "skilltree:mage-1b-nt_offense-fire",
+    "skilltree:mage-1b-nt_utility-fire"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-fire",
+    "skilltree:mage-ks_offense-fire",
+    "skilltree:mage-ks_utility-fire"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class_red.png",
+  "iconTexture": "irons_spellbooks:textures/item/upgrade_orb_fire.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_red.png",
+  "title": "Piromante",
+  "titleColor": "EB9570",
+  "positionX": -493.057,
+  "positionY": -237.222,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

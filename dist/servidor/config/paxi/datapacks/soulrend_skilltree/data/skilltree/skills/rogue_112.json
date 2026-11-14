@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_112",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "9a3a8baa-b196-4384-9f20-9225784cddd7",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_113"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_purple.png",
+  "iconTexture": "skilltree:textures/icons/crit_chanceup.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -417.22415,
+  "positionY": 106.85839,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

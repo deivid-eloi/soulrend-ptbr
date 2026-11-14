@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:mage-ks_defense-nature",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "b2b438c4-d4af-4db3-aa83-8f9294615b6a",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Druid"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_green.png",
+  "iconTexture": "irons_spellbooks:textures/mob_effect/fortify.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_green.png",
+  "title": "Mente",
+  "titleColor": "B8EB70",
+  "positionX": -280.76907,
+  "positionY": -284.80212,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

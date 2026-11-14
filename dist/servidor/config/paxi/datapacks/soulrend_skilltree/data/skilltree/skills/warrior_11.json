@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_11",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "da62d932-2cb7-4459-8f24-03995fa35ede",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_12"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "ftblibrary:textures/icons/heart.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -25.513298,
+  "positionY": -131.49931,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

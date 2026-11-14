@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:warrior_berserker_agile",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:impact",
+      "id": "d9a84c7b-991b-4a66-8036-aede14f1827f",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_114"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_156",
+    "skilltree:warrior_157",
+    "skilltree:warrior_158"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_red.png",
+  "iconTexture": "soulsweapons:textures/mob_effect/blade_dance.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -246.55957,
+  "positionY": 170.66667,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2,5% de Velocidade de Ataque a cada 25% de vida perdida com arma de duas mãos em mãos"
+    }
+  ]
+}

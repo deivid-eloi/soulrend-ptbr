@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:ranger_65",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:fishing_luck",
+      "id": "1b559663-9cd3-4d5d-9176-2261c21f8c9f",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:ranger_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_57"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "skilltree:textures/icons/fishing_rod_emerald.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor ",
+  "titleColor": "",
+  "positionX": -80.473495,
+  "positionY": 86.74243,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

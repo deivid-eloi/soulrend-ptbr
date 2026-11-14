@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:mage-6a-sr",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "8a8bb1bf-7729-43d0-8a68-b2aa55d1d8ea",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-7a-sr"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "skilltree:textures/icons/aim18.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "ab24b3",
+  "positionX": -21.211277,
+  "positionY": 137.33838,
+  "buttonSize": 17,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

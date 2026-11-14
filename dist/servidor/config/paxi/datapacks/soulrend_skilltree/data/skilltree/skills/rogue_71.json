@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_71",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "5b116eab-1b1b-4d29-b2a5-7162affbb20a",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:rogue_4"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -116.28296,
+  "positionY": -108.832085,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

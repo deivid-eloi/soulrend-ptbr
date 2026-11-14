@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_40",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:weight",
+      "id": "56bc042b-a3e8-4063-8d49-ab990481ab0d",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_41"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "minecraft:textures/item/feather.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 128.26967,
+  "positionY": 59.043888,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

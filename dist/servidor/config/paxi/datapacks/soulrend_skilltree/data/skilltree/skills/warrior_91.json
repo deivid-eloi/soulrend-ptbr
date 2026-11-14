@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:warrior_91",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "58017855-e642-4612-9c14-5ff6e047e4d6",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_124"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_142",
+    "skilltree:warrior_143",
+    "skilltree:warrior_141"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_yellow.png",
+  "iconTexture": "simplyswords:textures/mob_effect/resilience.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_orange.png",
+  "title": "Proteção",
+  "titleColor": "176b8f",
+  "positionX": 380.3097,
+  "positionY": -83.67561,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% de Resistência da Armadura com armadura pesada equipada"
+    }
+  ]
+}

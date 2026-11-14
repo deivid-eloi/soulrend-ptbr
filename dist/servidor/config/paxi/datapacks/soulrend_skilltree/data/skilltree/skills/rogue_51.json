@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:rogue_51",
+  "bonuses": [
+    {
+      "type": "skilltree:stealth",
+      "amount": 0.011
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_52"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_emerald.png",
+  "iconTexture": "minecraft:textures/mob_effect/blindness.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -94.063995,
+  "positionY": 84.99541,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

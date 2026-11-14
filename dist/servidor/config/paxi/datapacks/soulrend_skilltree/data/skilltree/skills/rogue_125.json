@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_125",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_pierce",
+      "id": "34dc5cdf-5677-4cb0-9285-d7301a85dca2",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:rogue_102"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_cyan.png",
+  "iconTexture": "aquamirae:textures/item/poisoned_chakra.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 284.9044,
+  "positionY": -156.42271,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

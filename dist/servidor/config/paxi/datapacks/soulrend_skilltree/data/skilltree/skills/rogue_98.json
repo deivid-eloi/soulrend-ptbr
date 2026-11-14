@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_98",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "e1ef6893-7a68-4408-a4fa-8e194053792d",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_100"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_purple.png",
+  "iconTexture": "iceandfire:textures/item/ghost_sword.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -273.4693,
+  "positionY": -142.13696,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

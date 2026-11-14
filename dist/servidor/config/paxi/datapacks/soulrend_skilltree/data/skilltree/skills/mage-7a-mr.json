@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:mage-7a-mr",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "9fc6f456-ac33-4439-8b85-30560d475b6f",
+      "name": "Skill",
+      "amount": 0.005,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-8a-mr"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "skilltree:textures/icons/swirly5.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "ab24b3",
+  "positionX": -129.83405,
+  "positionY": 51.147285,
+  "buttonSize": 17,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

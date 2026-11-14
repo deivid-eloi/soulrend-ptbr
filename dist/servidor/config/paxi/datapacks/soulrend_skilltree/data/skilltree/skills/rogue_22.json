@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_22",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.luck",
+      "id": "1c90f01d-a17e-4736-916e-0bcbb573318b",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_23"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "minecraft:textures/mob_effect/luck.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 31.863255,
+  "positionY": -101.28483,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:mage-ks_defense-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "f5d3c097-c7e4-4a66-93a0-889551c2cead",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Cryo"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_cyan.png",
+  "iconTexture": "irons_spellbooks:textures/mob_effect/fortify.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_teal.png",
+  "title": "Mente",
+  "titleColor": "DEF8FF",
+  "positionX": -319.153,
+  "positionY": 300.452,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

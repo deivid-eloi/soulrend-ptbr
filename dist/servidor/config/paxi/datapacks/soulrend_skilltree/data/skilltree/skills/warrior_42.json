@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_42",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "941eb5f0-643c-48d1-89e3-3b49f716bcbd",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_43"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "skilltree:textures/icons/stamina2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 31.196262,
+  "positionY": 119.71514,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

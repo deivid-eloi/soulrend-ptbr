@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ranger_4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "1c2c455d-c4d0-4024-a812-8ed668ffe1e3",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 1,
+      "player_condition": {
+        "effect": "kubejs:mounted",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:ranger_74"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "kubejs:textures/mob_effect/mounted.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -102.313934,
+  "positionY": -64.90024,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

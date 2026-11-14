@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_defense-nt_utility-eldritch",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "id": "1323c652-cdd3-4ebe-8969-83d108e9a933",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_gray.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 206.77672,
+  "positionY": 279.89655,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

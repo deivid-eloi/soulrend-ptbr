@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:mage-4a-sp",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "8c16d425-4d5d-4892-b505-3057d1de87ca",
+      "name": "Skill",
+      "amount": 0.005,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-5a-sp"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "skilltree:textures/icons/book15.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "ab24b3",
+  "positionX": 20.833715,
+  "positionY": -140.4791,
+  "buttonSize": 17,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

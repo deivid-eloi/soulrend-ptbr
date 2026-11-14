@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_121",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:impact",
+      "id": "c1745f0b-26e8-4f69-8c48-2a5c6b01ef3c",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_122"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_orange.png",
+  "iconTexture": "efn:textures/mob_effect/blood_blessing.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_orange.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 350.82703,
+  "positionY": -74.098595,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

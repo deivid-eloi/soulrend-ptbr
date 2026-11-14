@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-evocation",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "65034ac5-4895-4200-8be0-fd84365b8156",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_offense-evocation",
+    "skilltree:mage-1b-nt_utility-evocation",
+    "skilltree:mage-1b-nt_defense-evocation"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-evocation",
+    "skilltree:mage-ks_offense-evocation",
+    "skilltree:mage-ks_utility-evocation"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class13.png",
+  "iconTexture": "minecraft:textures/mob_effect/bad_omen.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_gray.png",
+  "title": "Evocador",
+  "titleColor": "FFFBE8",
+  "positionX": 686.62,
+  "positionY": -57.465,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

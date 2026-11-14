@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-lightning",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_lightning",
+      "id": "4cfd9285-bb92-4798-8f30-480384747a04",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Electro"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "skilltree:textures/icons/book6.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_orange.png",
+  "title": "Mente",
+  "titleColor": "FFFBE8",
+  "positionX": -667.03235,
+  "positionY": -101.28213,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_24",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "470441fa-c64b-40a0-862e-6b1924ab3625",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_25"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_emerald.png",
+  "iconTexture": "skilltree:textures/icons/stamina2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 94.063995,
+  "positionY": -33.675903,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

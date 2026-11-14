@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:ranger_111",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "28cf5029-c853-414d-a9ac-4ce5f294a391",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_112"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro.png",
+  "iconTexture": "skilltree:textures/item/gems/moonshade_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 429.8781,
+  "positionY": -107.42307,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

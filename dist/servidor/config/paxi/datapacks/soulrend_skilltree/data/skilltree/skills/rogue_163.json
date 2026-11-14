@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:rogue_163",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:offhand_armor_negation",
+      "id": "ae6da501-90ff-402c-94ec-b5ca201073c1",
+      "name": "Skill",
+      "amount": 0.6,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:dual_wielding"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_purple.png",
+  "iconTexture": "wom:textures/item/clawed_gauntle_icon.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_purple.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -296.81525,
+  "positionY": 149.78746,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0,6 de Negação de Armadura da Mão Secundária empunhando armas de ladino nas duas mãos"
+    }
+  ]
+}

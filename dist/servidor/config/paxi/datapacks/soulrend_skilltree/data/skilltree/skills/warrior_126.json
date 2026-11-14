@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_126",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stun_armor",
+      "id": "455c3454-c0de-4e8d-894d-fbae6309f027",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_127"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_orange.png",
+  "iconTexture": "travelersbackpack:textures/item/gold_tier_upgrade.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_orange.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 350.83502,
+  "positionY": 91.906044,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

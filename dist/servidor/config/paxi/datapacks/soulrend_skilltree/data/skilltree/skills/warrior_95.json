@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:warrior_95",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "e8e2ecaf-5e63-4b85-a73f-dd2b69df515d",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_96"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro.png",
+  "iconTexture": "skilltree:textures/icons/crit_chanceup.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -246.55957,
+  "positionY": -130.33333,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

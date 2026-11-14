@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:ranger_127",
+  "bonuses": [
+    {
+      "type": "skilltree:projectile_duplication",
+      "chance": 0.1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring.png",
+  "iconTexture": "mowziesmobs:textures/particle/arrow_head.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 412.57782,
+  "positionY": 30.306639,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

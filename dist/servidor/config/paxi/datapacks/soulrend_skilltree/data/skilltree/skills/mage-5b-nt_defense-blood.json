@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-5b-nt_defense-blood",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "64557f3e-d15f-4142-9a20-4f179cc503ca",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-6b-nt_defense-blood"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro.png",
+  "iconTexture": "skilltree:textures/icons/aim19.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Menor",
+  "titleColor": "C43329",
+  "positionX": 489.37192,
+  "positionY": 254.23476,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

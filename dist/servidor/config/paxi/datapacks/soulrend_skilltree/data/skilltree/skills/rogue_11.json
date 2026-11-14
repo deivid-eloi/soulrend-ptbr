@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:rogue_11",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stamina_regen",
+      "id": "541bc88f-6763-4c99-a706-60bf9ff5e16c",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 2,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:light_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Rogue Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_cyan.png",
+  "iconTexture": "skilltree:textures/icons/stamina8.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Pedra Angular - [ Ladino ]",
+  "titleColor": "db1818",
+  "positionX": 28.324682,
+  "positionY": -34.80901,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% de Regeneração de Estamina com armadura de ladino equipada (caminho verde)"
+    }
+  ]
+}

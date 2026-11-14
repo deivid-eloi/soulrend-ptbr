@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_defense-evocation",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "id": "df68c30a-055b-4269-a886-bf52800c708f",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_defense-evocation"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_defense-evocation",
+    "skilltree:mage-nt_offense-nt_defense-evocation",
+    "skilltree:mage-nt_utility-nt_defense-evocation"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "ftblibrary:textures/icons/shield.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 687.6912,
+  "positionY": 15.262354,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

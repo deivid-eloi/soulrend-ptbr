@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:ranger_17",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "788872be-921c-4a6a-b4ba-c4d3e22e5511",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Sharpshooter Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_blue.png",
+  "iconTexture": "minecraft:textures/item/spectral_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_lightblue.png",
+  "title": "Pedra Angular",
+  "titleColor": "db1818",
+  "positionX": -225.27536,
+  "positionY": -27.618704,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

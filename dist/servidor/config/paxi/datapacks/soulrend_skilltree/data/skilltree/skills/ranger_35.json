@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:ranger_35",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "b96878b6-7fdf-4821-98c2-ed4123c73ec6",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_36"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "skilltree:textures/icons/crit_maxup.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor ",
+  "titleColor": "",
+  "positionX": 100.99558,
+  "positionY": -89.7597,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

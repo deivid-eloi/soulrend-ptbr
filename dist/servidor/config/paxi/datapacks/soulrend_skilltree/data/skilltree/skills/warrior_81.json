@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:warrior_81",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.1,
+      "max_stacks": 1,
+      "effect": "soulsweapons:bleed",
+      "duration": 600,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Warrior Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "attributeslib:textures/mob_effect/bleeding.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Pedra Angular",
+  "titleColor": "db1818",
+  "positionX": -44.0,
+  "positionY": 14.0,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_131",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stamina_regen",
+      "id": "9c4ee8ef-3ac0-45a6-87e4-2604bf06a2e6",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_132"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_cyan.png",
+  "iconTexture": "skilltree:textures/icons/stamina2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 399.18387,
+  "positionY": 113.99539,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

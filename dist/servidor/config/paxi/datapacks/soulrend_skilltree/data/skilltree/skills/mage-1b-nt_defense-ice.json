@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-1b-nt_defense-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "8ae5051e-3f15-4f01-aea8-eded4c7dda2b",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-2b-nt_defense-ice"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_turquoise.png",
+  "iconTexture": "skilltree:textures/icons/aim17.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Menor",
+  "titleColor": "DEF8FF",
+  "positionX": -288.352,
+  "positionY": 341.91,
+  "buttonSize": 15,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

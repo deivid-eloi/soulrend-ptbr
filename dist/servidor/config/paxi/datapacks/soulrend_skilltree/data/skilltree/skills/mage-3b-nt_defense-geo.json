@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-3b-nt_defense-geo",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "2b5c6af3-6b90-4bc7-9151-aef10038b460",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-4b-nt_defense-geo"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_purple.png",
+  "iconTexture": "skilltree:textures/icons/aim20.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Menor",
+  "titleColor": "ab24b3",
+  "positionX": 21.18053,
+  "positionY": -246.3606,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-2b-nt_offense-holy",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "b57f4d51-bd75-47cf-b245-6dcf8c6a3847",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-3b-nt_offense-holy"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_orange.png",
+  "iconTexture": "skilltree:textures/icons/sparkles10.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_orange.png",
+  "title": "Menor",
+  "titleColor": "FFFBE8",
+  "positionX": 616.47815,
+  "positionY": -271.39285,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

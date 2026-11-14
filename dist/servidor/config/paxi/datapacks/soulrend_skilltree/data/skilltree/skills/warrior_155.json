@@ -1,0 +1,50 @@
+{
+  "id": "skilltree:warrior_155",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.2,
+      "max_stacks": 1,
+      "effect": "soulsweapons:bleed",
+      "duration": 150,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "player_condition": {
+          "item_condition": {
+            "tag_id": "soulrend_tweaks:two_handed_weapons",
+            "type": "skilltree:tag"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring.png",
+  "iconTexture": "attributeslib:textures/mob_effect/bleeding.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -337.48883,
+  "positionY": 57.1587,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% de Chance de causar Sangramento por 7,5 segundos ao acertar com arma de duas mãos em mãos"
+    }
+  ]
+}

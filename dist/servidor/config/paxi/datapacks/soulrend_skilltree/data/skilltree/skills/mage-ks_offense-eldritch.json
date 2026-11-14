@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:mage-ks_offense-eldritch",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "cffb7360-1e3c-4a34-8b4c-8376e1d40db7",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Elder"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "skilltree:textures/icons/mana_maxup.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 319.77545,
+  "positionY": 291.45377,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:rogue_74",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.1,
+      "multiplier": 2.0,
+      "loot_type": "chests"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/treasure_chest_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 47.489662,
+  "positionY": -134.50357,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,83 @@
+{
+  "id": "skilltree:warrior_160",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "df683dd2-5e79-40ad-a079-7504710b6474",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.1,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.8,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "32fd3e22-1cbb-4a24-b8e3-92d63129762c",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.2,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.8,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Berserker Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "cataclysm:textures/item/bone_reptile_helmet.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_red.png",
+  "title": "Sanguinário",
+  "titleColor": "db1818",
+  "positionX": -286.62302,
+  "positionY": -21.43217,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

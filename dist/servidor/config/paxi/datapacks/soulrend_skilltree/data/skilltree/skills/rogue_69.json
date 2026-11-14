@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_69",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:healing_power",
+      "id": "cb31aedb-5b23-497b-963a-07f06d9ad094",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:rogue_4"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/cross_red.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -151.43327,
+  "positionY": -51.662186,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

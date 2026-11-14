@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_26",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "44c5d5de-396f-43d7-845c-ee214a2db425",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_27"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_emerald.png",
+  "iconTexture": "dungeons_and_combat:textures/item/wooden_shield.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -97.39896,
+  "positionY": 90.66198,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

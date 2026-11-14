@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:warrior_2",
+  "bonuses": [
+    {
+      "type": "skilltree:gain_experience",
+      "chance": 0.1,
+      "amount": 5,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.2,
+      "experience_source": "ore"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "skilltree:textures/icons/eye_green.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Experiente",
+  "titleColor": "176b8f",
+  "positionX": 0.6669922,
+  "positionY": 114.33334,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

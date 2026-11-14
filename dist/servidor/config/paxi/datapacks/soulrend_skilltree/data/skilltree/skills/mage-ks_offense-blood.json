@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:mage-ks_offense-blood",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "1a2a7a72-396f-4167-b015-a0a59a4cb05c",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Cultist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "skilltree:textures/icons/mana_maxup.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_red.png",
+  "title": "Mente",
+  "titleColor": "C43329",
+  "positionX": 547.124,
+  "positionY": 181.765,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

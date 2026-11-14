@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_65",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "097a5ac4-752d-4122-875a-af58f5a00f05",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_6"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "minecraft:textures/item/diamond_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": 150.09134,
+  "positionY": -57.67592,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ranger_158",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "4d1177a4-b64c-4a29-87d4-381264585b68",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_turqoise.png",
+  "iconTexture": "minecraft:textures/block/target_top.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -353.50464,
+  "positionY": -116.16544,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

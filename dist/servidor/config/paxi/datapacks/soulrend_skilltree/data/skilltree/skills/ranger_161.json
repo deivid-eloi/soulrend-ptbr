@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:ranger_161",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "85326561-a35f-443d-b3b0-446a3bb3871b",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "required_value": 15.0,
+        "logic": "AT_MOST",
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_turqoise.png",
+  "iconTexture": "skilltree:textures/icons/aim2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -405.33142,
+  "positionY": 27.015768,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

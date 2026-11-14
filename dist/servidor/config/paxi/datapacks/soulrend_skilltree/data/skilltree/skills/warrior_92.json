@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:warrior_92",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stun_armor",
+      "id": "2a023329-05d6-4db1-bff3-47f7fc7a5f1e",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_129"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_139",
+    "skilltree:warrior_140",
+    "skilltree:warrior_138"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_yellow.png",
+  "iconTexture": "epicfight:textures/mob_effect/stun_immunity.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_orange.png",
+  "title": "Impassível",
+  "titleColor": "176b8f",
+  "positionX": 380.3177,
+  "positionY": 82.32838,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5 de Armadura contra Atordoamento com armadura pesada equipada"
+    }
+  ]
+}

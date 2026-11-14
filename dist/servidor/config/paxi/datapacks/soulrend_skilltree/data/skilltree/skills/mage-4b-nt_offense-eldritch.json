@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-4b-nt_offense-eldritch",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "cf288191-892b-4686-9601-3b0178fd4251",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-5b-nt_offense-eldritch"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_gray.png",
+  "iconTexture": "skilltree:textures/icons/sparkles11.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "ab24b3",
+  "positionX": 352.87347,
+  "positionY": 212.6203,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

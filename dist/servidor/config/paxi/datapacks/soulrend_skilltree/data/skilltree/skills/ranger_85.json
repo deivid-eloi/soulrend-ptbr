@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:ranger_85",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "1eab2ce5-6531-4fb0-9fad-8e2d1ae101be",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_129",
+    "skilltree:ranger_130",
+    "skilltree:ranger_131"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/archmage_ender_notable.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": 411.6582,
+  "positionY": -82.3425,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

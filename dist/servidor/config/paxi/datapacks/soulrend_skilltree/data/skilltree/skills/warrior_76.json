@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_76",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stun_armor",
+      "id": "79c095c7-3675-4cff-b09c-d896afe2faef",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_3"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "magistuarmory:textures/item/ceremonial_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -134.28381,
+  "positionY": 103.82529,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

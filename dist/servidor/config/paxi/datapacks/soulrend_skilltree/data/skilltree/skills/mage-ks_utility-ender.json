@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-ender",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_ender",
+      "id": "7c352500-9012-46db-ba51-d2dbdc0af557",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Ender"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_purple.png",
+  "iconTexture": "skilltree:textures/icons/book.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_purple.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 0.5315551,
+  "positionY": 273.65402,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

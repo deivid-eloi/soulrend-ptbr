@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:mage-defense-ctr",
+  "bonuses": [
+    {
+      "type": "skilltree:effect_duration",
+      "effect_predicate": {
+        "effect_type": "beneficial",
+        "type": "skilltree:effect_category"
+      },
+      "duration": 0.15,
+      "target": "player"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:mage-ctr"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/potion_yellow_big.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 152.96957,
+  "positionY": 25.938837,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

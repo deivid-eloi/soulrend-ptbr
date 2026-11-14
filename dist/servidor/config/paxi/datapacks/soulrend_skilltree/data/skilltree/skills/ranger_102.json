@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:ranger_102",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "d7b9c9a8-8594-4966-a896-af956b4e0f50",
+      "name": "Skill",
+      "amount": 0.005,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 3.0,
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "55555fe6-c603-44df-aeef-8f9e03fea54f",
+      "name": "Skill",
+      "amount": -0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 3.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:ranger_75"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_light_blue.png",
+  "iconTexture": "soulsweapons:textures/item/chungus_tonic_tipped_arrow_overlay.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -291.68353,
+  "positionY": 152.91092,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:rogue_61",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_knockback",
+      "id": "63fd0eda-3e94-4ac6-97fb-7fa086b6c3ea",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_62"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "soulsweapons:textures/item/arkenstone.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -117.33154,
+  "positionY": -34.915154,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 de Repulsão de Ataque: aumenta o dano da habilidade inata da arma (não faz o que a repulsão normal faz)"
+    }
+  ]
+}

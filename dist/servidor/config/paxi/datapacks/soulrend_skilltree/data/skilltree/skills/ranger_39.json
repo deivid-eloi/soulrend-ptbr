@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:ranger_39",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "c8d84bf9-4a2e-4048-a3df-cae806958e1e",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_40"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_emerald.png",
+  "iconTexture": "skilltree:textures/icons/dodge1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor ",
+  "titleColor": "",
+  "positionX": 98.026215,
+  "positionY": 95.424034,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "1",
+        {
+          "translate": "attributeslib:dodge_chance"
+        }
+      ]
+    }
+  ]
+}

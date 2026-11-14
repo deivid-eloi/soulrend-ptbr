@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:rogue_142",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:weight",
+      "id": "1b72e05b-2404-4046-a5c3-dad8c7a9b189",
+      "name": "Skill",
+      "amount": -10.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:light_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_cyan.png",
+  "iconTexture": "minecraft:textures/mob_effect/slow_falling.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_teal.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 202.59239,
+  "positionY": 135.50171,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "-10 de Peso com armadura leve equipada"
+    }
+  ]
+}

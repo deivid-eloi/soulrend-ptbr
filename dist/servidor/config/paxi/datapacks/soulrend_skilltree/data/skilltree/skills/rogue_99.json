@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:rogue_99",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:impact",
+      "id": "c398c288-8227-4682-83a6-808df72893ec",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:light_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:rogue_140"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_141",
+    "skilltree:rogue_142",
+    "skilltree:rogue_143"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_cyan.png",
+  "iconTexture": "projectile_damage:textures/mob_effect/impact.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": 255.4209,
+  "positionY": 166.00002,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5 de Impacto com armadura leve equipada"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "skilltree:warrior_161",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "3c16200f-83a4-4f9a-9494-022e768971f8",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.attack_damage",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 100.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "4af7a35d-1c95-4be0-9088-4a27b9eb8ab0",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.attack_damage",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 100.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Berserker Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "fantasy_armor:textures/item/dragonslayer_helmet.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_red.png",
+  "title": "Saqueador",
+  "titleColor": "db1818",
+  "positionX": -206.03058,
+  "positionY": -22.644335,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10 de Vida Máxima a cada 100 de Dano de Ataque com arma de duas mãos em mãos"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0,2 de Armadura a cada 100 de Dano de Ataque com arma de duas mãos em mãos"
+    }
+  ]
+}

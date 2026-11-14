@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:rogue_162",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "c8ea8cae-f8d2-4036-a8d3-e2caa44eefb4",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1,
+      "player_condition": {
+        "reverse_logic": false,
+        "type": "skilltree:crouching"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_moon_purple.png",
+  "iconTexture": "epicfightx:textures/mob_effect/efx_speed.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_purple.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -243.98679,
+  "positionY": 241.28577,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:mage-6b-nt_utility-aqua",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "54f2f943-3f5a-401e-8618-712e9a17ae55",
+      "name": "Skill",
+      "amount": 0.0017,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_stygian_blue.png",
+  "iconTexture": "skilltree:textures/icons/swirly17.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Menor",
+  "titleColor": "A8B7FF",
+  "positionX": -584.4224,
+  "positionY": 109.40557,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

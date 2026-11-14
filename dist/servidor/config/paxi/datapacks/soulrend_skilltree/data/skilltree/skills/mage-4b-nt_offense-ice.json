@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-4b-nt_offense-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "f8a0dba3-9c9e-4301-9940-7d5c6a39cf30",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-5b-nt_offense-ice"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_turquoise.png",
+  "iconTexture": "skilltree:textures/icons/sparkles3.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Menor",
+  "titleColor": "DEF8FF",
+  "positionX": -216.731,
+  "positionY": 213.25,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:mage-6b-nt_defense-ender",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "2961bd31-d2d7-4f7f-bb05-b891e1871684",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_stygian_blue.png",
+  "iconTexture": "skilltree:textures/icons/aim20.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Menor",
+  "titleColor": "ab24b3",
+  "positionX": -21.039473,
+  "positionY": 381.7814,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

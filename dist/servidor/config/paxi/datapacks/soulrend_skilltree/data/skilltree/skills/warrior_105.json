@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:warrior_105",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "5ee43fb4-59bb-43b0-9903-b3cbf1034424",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_106"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro.png",
+  "iconTexture": "minecraft:textures/item/apple.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -390.31445,
+  "positionY": 118.66207,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "2",
+        {
+          "translate": "attribute.name.generic.max_health"
+        }
+      ]
+    }
+  ]
+}

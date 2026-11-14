@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:ranger_6",
+  "bonuses": [
+    {
+      "type": "skilltree:arrow_retrieval",
+      "chance": 0.25
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:ranger_135"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "ftblibrary:textures/icons/refresh.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": 90.395485,
+  "positionY": -60.628323,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

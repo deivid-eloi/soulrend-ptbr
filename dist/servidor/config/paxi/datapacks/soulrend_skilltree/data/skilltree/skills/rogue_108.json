@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_108",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "46ba39ee-cec9-4b7e-bb85-a571a3b05ac8",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_109"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_purple.png",
+  "iconTexture": "skilltree:textures/icons/crit_maxup.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -405.9719,
+  "positionY": -93.78851,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

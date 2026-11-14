@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-blood",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "1859a917-228a-4f2d-9a77-070a4bf22582",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_offense-blood",
+    "skilltree:mage-1b-nt_defense-blood",
+    "skilltree:mage-1b-nt_utility-blood"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-blood",
+    "skilltree:mage-ks_offense-blood",
+    "skilltree:mage-ks_utility-blood"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class8.png",
+  "iconTexture": "alexscaves:textures/particle/void_eye_0.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Cultista",
+  "titleColor": "C43329",
+  "positionX": 510.103,
+  "positionY": 160.926,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

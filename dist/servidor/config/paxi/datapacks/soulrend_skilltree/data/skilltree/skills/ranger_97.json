@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:ranger_97",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "6de04e42-5065-47dd-a056-5d5224247ca4",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "required_value": 15.0,
+        "logic": "AT_MOST",
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_light_blue.png",
+  "iconTexture": "alexscaves:textures/item/seeking_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -376.8388,
+  "positionY": 89.90601,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

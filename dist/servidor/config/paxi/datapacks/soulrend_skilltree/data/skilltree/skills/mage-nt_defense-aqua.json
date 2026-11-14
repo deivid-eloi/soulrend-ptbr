@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_defense-aqua",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "traveloptics:aqua_magic_resist",
+      "id": "4db7954f-3a36-4dde-bf86-98758c838895",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_defense-aqua"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_defense-aqua",
+    "skilltree:mage-nt_offense-nt_defense-aqua",
+    "skilltree:mage-nt_utility-nt_defense-aqua"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "dungeons_and_combat:textures/mob_effect/gigant_aura.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Senciência",
+  "titleColor": "A8B7FF",
+  "positionX": -491.628,
+  "positionY": 210.775,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

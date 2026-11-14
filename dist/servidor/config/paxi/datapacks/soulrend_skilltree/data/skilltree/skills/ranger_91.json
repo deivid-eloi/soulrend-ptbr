@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:ranger_91",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "b8b9db06-f93c-4776-9bea-84957726c407",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:ranged_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_92"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_light_blue.png",
+  "iconTexture": "skilltree:textures/icons/crit_maxup.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -388.11035,
+  "positionY": -110.74264,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% de Dano Crítico com armas de longo alcance em mãos"
+    }
+  ]
+}

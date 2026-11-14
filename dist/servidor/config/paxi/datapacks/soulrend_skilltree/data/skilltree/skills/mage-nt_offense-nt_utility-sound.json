@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:mage-nt_offense-nt_utility-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "991b2716-6e0f-4700-8ff7-d083595a8c73",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "familiarslib:sound_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_magenta.png",
+  "iconTexture": "skilltree:textures/icons/mana13.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_magenta.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 221.2654,
+  "positionY": -368.63925,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

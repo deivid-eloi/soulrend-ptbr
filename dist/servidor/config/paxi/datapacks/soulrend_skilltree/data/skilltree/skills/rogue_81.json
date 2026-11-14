@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:rogue_81",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:armor_negation",
+      "id": "ac83e7e7-4800-4020-87c0-b152bc64a672",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:rogue_2"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "aquamirae:textures/item/dagger_of_greed.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 0.6669922,
+  "positionY": 173.00008,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% de Negação de Armadura"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:mage-ks_defense-geo",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "df6739fb-8d49-4f08-9580-ba91dffd72be",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Geo"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "irons_spellbooks:textures/mob_effect/fortify.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_orange.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": -37.201897,
+  "positionY": -318.91855,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

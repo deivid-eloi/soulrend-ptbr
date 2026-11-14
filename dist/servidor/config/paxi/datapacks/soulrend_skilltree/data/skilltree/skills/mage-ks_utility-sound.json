@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:school/familiarslib/sound",
+      "id": "5d41f0fd-82fc-424b-9f1c-0e028cc307ee",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Bard"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_pink.png",
+  "iconTexture": "skilltree:textures/icons/book3.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 260.97983,
+  "positionY": -346.749,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

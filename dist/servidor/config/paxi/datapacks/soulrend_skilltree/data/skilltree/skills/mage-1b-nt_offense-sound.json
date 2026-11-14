@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-1b-nt_offense-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "e84479a8-2ac4-4aef-bbc8-705180c6e3ca",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "familiarslib:sound_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-2b-nt_offense-sound"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_turquoise.png",
+  "iconTexture": "skilltree:textures/icons/sparkles7.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_magenta.png",
+  "title": "Menor",
+  "titleColor": "70EBD6",
+  "positionX": 331.74506,
+  "positionY": -317.508,
+  "buttonSize": 15,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:rogue_159",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.2,
+      "max_stacks": 1,
+      "effect": "soulsweapons:decay",
+      "duration": 100,
+      "amplifier": 1,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "effect": "minecraft:invisibility",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_purple.png",
+  "iconTexture": "endlessbiomes:textures/mob_effect/decay.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_purple.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -387.7416,
+  "positionY": 158.28117,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

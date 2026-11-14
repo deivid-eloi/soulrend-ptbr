@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:rogue_18",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.0125,
+      "multiplier": 1.0,
+      "loot_type": "chests"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_19"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "skilltree:textures/icons/treasure_chest.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -25.513298,
+  "positionY": -122.16582,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_utility-nt_utility-nature",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_nature",
+      "id": "0fed6e7b-1ce0-412a-983a-fe74eeb35257",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_green2.png",
+  "iconTexture": "minecraft:textures/item/wolf_spawn_egg.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_green.png",
+  "title": "Senciência",
+  "titleColor": "B8EB70",
+  "positionX": -350.49243,
+  "positionY": -367.47458,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:rogue_10",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "e46b7574-ed69-4abc-9ea3-9951479675f9",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:dual_wielding"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Rogue Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_purple.png",
+  "iconTexture": "efn:textures/mob_effect/attack_damage_increase.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Pedra Angular - [ Ladino ]",
+  "titleColor": "db1818",
+  "positionX": -26.350624,
+  "positionY": -35.79536,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% de Dano de Ataque empunhando armas de ladino nas duas mãos"
+    }
+  ]
+}

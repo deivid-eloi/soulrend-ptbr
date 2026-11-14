@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ranger_69",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "4375e322-d741-4b5e-9aa9-2f8f7710ab6d",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1,
+      "player_condition": {
+        "effect": "kubejs:mounted",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_70"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "alexscaves:textures/item/seeking_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor ",
+  "titleColor": "",
+  "positionX": -129.16115,
+  "positionY": -80.39938,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

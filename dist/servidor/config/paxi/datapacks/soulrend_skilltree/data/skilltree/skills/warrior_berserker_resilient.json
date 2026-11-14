@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:warrior_berserker_resilient",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "5cc9ab55-6624-4575-965c-148696fae74f",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_99"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_147",
+    "skilltree:warrior_148",
+    "skilltree:warrior_149"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_red.png",
+  "iconTexture": "skilltree:textures/icons/crit_dmg.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -246.55957,
+  "positionY": -161.33333,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% de Dano Crítico com arma de duas mãos em mãos"
+    }
+  ]
+}

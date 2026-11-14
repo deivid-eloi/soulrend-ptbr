@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:mage-nt_defense-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "3a3e40ee-6d03-4be2-9ad8-7d2fead92826",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_defense-ice"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_defense-ice",
+    "skilltree:mage-nt_offense-nt_defense-ice",
+    "skilltree:mage-nt_utility-nt_defense-ice"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Senciência",
+  "titleColor": "DEF8FF",
+  "positionX": -287.772,
+  "positionY": 366.127,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

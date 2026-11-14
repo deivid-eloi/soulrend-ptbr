@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:ranger_5",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:weight",
+      "id": "11998cff-6a1b-4f07-a172-00bd4c982e80",
+      "name": "Skill",
+      "amount": -10.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:ranger_29"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "minecraft:textures/mob_effect/slow_falling.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": 0.95284605,
+  "positionY": -111.71429,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

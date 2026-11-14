@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:mage-utility_1-mm",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "ee1a818b-9e26-4151-b6d1-68e0b9760455",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:mage-mm"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/mana_maxup.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 155.46658,
+  "positionY": -61.79744,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

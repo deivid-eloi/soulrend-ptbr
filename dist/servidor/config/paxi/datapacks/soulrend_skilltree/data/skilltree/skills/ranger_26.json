@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:ranger_26",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:weight",
+      "id": "4a1bfe68-3a2c-4a2d-a3c1-44492c9ebf5f",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_27"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "minecraft:textures/item/feather.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor ",
+  "titleColor": "",
+  "positionX": 10.552988,
+  "positionY": -140.84541,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

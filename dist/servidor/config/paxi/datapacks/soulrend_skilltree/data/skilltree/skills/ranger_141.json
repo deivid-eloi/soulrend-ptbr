@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:ranger_141",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "effect give @p minecraft:invisibility 8",
+      "description": "Grants invisibility for 8 seconds on kill",
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:on_kill"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:ranger_2"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "irons_spellbooks:textures/mob_effect/true_invisibility.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -0.47642303,
+  "positionY": 182.19052,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

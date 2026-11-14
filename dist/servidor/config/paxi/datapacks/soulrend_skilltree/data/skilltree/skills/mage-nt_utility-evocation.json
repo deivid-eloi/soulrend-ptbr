@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:mage-nt_utility-evocation",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "675bc3c8-8c4b-47c9-a79b-2f8fbb58779a",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_utility-evocation",
+    "skilltree:mage-6b-nt_utility-evocation"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_utility-evocation",
+    "skilltree:mage-nt_offense-nt_utility-evocation",
+    "skilltree:mage-nt_utility-nt_utility-evocation"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/archmage_evocation_lesser.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 616.27124,
+  "positionY": -99.01891,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

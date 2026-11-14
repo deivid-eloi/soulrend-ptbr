@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:rogue_73",
+  "bonuses": [
+    {
+      "type": "skilltree:item_use_movement_speed",
+      "multiplier": -0.5
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:rogue_5"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "dacxirons:textures/mob_effect/cast_speed.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -46.492958,
+  "positionY": -132.1654,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

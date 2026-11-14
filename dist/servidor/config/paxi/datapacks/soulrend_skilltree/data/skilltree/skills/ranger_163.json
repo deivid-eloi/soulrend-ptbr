@@ -1,0 +1,59 @@
+{
+  "id": "skilltree:ranger_163",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:damage_avoidance",
+      "chance": 0.2,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_turqoise.png",
+  "iconTexture": "skilltree:textures/icons/dodge1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -209.62997,
+  "positionY": 186.16827,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+10% de Dano Corpo a Corpo recebido"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+20% de Chance de evitar Dano Corpo a Corpo"
+    }
+  ]
+}

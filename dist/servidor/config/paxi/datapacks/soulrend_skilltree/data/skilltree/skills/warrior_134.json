@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_134",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "f82d85bb-47cb-47ee-9893-2d730fba0955",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_orange.png",
+  "iconTexture": "skilltree:textures/icons/heart_green.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_orange.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 266.03818,
+  "positionY": 174.91052,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

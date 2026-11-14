@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_defense-holy",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "f63ff4bb-d41a-4f9b-89a2-c957a980cf7f",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_defense-holy"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_defense-holy",
+    "skilltree:mage-nt_offense-nt_defense-holy",
+    "skilltree:mage-nt_utility-nt_defense-holy"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "cataclysm:textures/particle/desert_glyph_8.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_orange.png",
+  "title": "Senciência",
+  "titleColor": "FFFBE8",
+  "positionX": 518.969,
+  "positionY": -152.176,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_utility-nature",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "809b2f2f-cfbb-4c5c-8b02-78f81b6546b4",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_utility-nature"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_utility-nature",
+    "skilltree:mage-nt_offense-nt_utility-nature",
+    "skilltree:mage-nt_utility-nt_utility-nature"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "irons_spellbooks:textures/mob_effect/blight.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_green.png",
+  "title": "Senciência",
+  "titleColor": "B8EB70",
+  "positionX": -311.21994,
+  "positionY": -340.4428,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

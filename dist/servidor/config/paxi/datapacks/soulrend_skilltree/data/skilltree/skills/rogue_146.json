@@ -1,0 +1,50 @@
+{
+  "id": "skilltree:rogue_146",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.3,
+      "max_stacks": 1,
+      "effect": "minecraft:weakness",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "player_condition": {
+          "item_condition": {
+            "tag_id": "soulrend:light_armor",
+            "type": "skilltree:tag"
+          },
+          "type": "skilltree:has_item_equipped"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_moon_cyan.png",
+  "iconTexture": "minecraft:textures/mob_effect/weakness.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_teal.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 452.0095,
+  "positionY": 52.492027,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% de Chance de causar Fraqueza por 10 segundos ao acertar corpo a corpo com armadura leve equipada"
+    }
+  ]
+}

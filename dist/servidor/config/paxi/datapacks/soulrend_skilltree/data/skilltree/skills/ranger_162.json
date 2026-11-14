@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ranger_162",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.25,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_turqoise.png",
+  "iconTexture": "irons_spellbooks:textures/item/affinity_ring_eldritch.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -262.56738,
+  "positionY": 224.33331,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:rogue_50",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:armor_negation",
+      "id": "b7c5a089-bf51-4104-a414-0c755bdad705",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "alexscaves:textures/item/desolate_dagger.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 20.593914,
+  "positionY": 135.74702,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "1",
+        {
+          "translate": "attribute.name.epicfight.armor_negation"
+        }
+      ]
+    }
+  ]
+}

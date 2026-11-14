@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_utility-ender",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "fa54afb1-33f0-49c0-a2b4-d020e79685c7",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_utility-ender"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_utility-ender",
+    "skilltree:mage-nt_offense-nt_utility-ender",
+    "skilltree:mage-nt_utility-nt_utility-ender"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "irons_spellbooks:textures/item/upgrade_orb_ender.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": -77.76912,
+  "positionY": 267.94876,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:rogue_4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "669f604e-1328-4fc6-8c9d-1b9c1247fc05",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "minecraft:textures/mob_effect/instant_health.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -97.406906,
+  "positionY": -58.662064,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

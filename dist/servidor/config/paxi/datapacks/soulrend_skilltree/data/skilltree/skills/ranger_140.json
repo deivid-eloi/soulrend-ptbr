@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:ranger_140",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "266174e1-235d-455a-9190-77fb05bb8e04",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:ranger_7"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "attributeslib:textures/mob_effect/vitality.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 147.51675,
+  "positionY": 41.587288,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

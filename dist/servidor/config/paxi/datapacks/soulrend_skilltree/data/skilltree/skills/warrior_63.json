@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_63",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "ac1f8025-b0f1-4b11-ad59-042d47f282e7",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_5"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "dungeons_and_combat:textures/item/enchanted_fairy_apple.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -51.494537,
+  "positionY": -146.49847,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

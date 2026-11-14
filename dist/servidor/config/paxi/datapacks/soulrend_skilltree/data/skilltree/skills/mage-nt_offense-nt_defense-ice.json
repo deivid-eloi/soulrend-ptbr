@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_offense-nt_defense-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_ice",
+      "id": "15fefc4a-ba71-459a-81e7-99c21f4036df",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_green2.png",
+  "iconTexture": "block_factorys_bosses:textures/particle/reverse_ice_shard.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_teal.png",
+  "title": "Senciência",
+  "titleColor": "DEF8FF",
+  "positionX": -246.305,
+  "positionY": 336.585,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:rogue_91",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "ef4b5ff3-edbc-401b-b23f-6f75a96f8e96",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:light_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Skirmisher Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_cyan.png",
+  "iconTexture": "skilltree:textures/icons/stamina8.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_teal.png",
+  "title": "Pedra Angular - [ Escaramuçador ]",
+  "titleColor": "db1818",
+  "positionX": 212.1712,
+  "positionY": -26.576935,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+50% de Estamina Máxima com armadura leve equipada"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:ranger_10",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "a852b69a-b1be-4505-8300-e9c94177e5cb",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Ranger Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_blue.png",
+  "iconTexture": "minecraft:textures/block/target_top.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Pedra Angular",
+  "titleColor": "db1818",
+  "positionX": 0.0,
+  "positionY": 60.0,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

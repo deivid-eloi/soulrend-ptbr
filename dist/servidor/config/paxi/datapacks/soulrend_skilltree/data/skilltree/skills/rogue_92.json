@@ -1,0 +1,59 @@
+{
+  "id": "skilltree:rogue_92",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.3,
+      "max_stacks": 1,
+      "effect": "soulsweapons:posture_break",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "tag_id": "soulrend:light_armor",
+            "type": "skilltree:tag"
+          },
+          "type": "skilltree:has_item_equipped"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Skirmisher Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_cyan.png",
+  "iconTexture": "soulsweapons:textures/mob_effect/posture_break.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_teal.png",
+  "title": "Pedra Angular - [ Escaramuçador ]",
+  "titleColor": "db1818",
+  "positionX": 297.08127,
+  "positionY": -25.94434,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% de Chance de causar Quebra de Postura por 10 segundos ao acertar com armadura leve equipada"
+    }
+  ]
+}

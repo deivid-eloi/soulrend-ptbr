@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utilxdef",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "acff4b4f-1df8-4430-908c-1888d855ce6f",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Mind"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_purple.png",
+  "iconTexture": "skilltree:textures/icons/mana_regenup.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": -50.103474,
+  "positionY": 8.9994,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_offense",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "7eabdb6e-d586-4e8c-b355-4ccae36220ab",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Mind"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "skilltree:textures/icons/mana_maxup.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 51.7069,
+  "positionY": 11.074733,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

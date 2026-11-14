@@ -1,0 +1,88 @@
+{
+  "id": "skilltree:warrior_162",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:healing_received",
+      "id": "0f2f18ec-c5bc-4bdf-bc14-eb1d8725ddad",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "2d54fc63-5d4c-4c62-830a-68ccf51b7580",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "64c6800c-667a-400c-901d-317defda5b94",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Templar Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "irons_spellbooks:textures/item/paladin_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_orange.png",
+  "title": "Paladino",
+  "titleColor": "db1818",
+  "positionX": 235.7207,
+  "positionY": 43.67276,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+25% de Cura Recebida com armadura pesada equipada"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+25% de Resistência a Feitiços com armadura pesada equipada"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% de Dano de Ataque a cada 0,25 de Poder de Feitiço Sagrado com armadura pesada equipada"
+    }
+  ]
+}

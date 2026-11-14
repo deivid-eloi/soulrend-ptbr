@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:rogue_96",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:armor_negation",
+      "id": "ff2a5448-049f-4bf3-a3ca-d6b0900fba54",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_condition": {
+        "effect": "minecraft:invisibility",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:rogue_105"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_153",
+    "skilltree:rogue_154",
+    "skilltree:rogue_155"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_magenta.png",
+  "iconTexture": "wom:textures/item/clawed_gauntle_icon.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -243.98679,
+  "positionY": -151.71423,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

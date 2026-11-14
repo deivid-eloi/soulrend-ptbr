@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:mage-ks_offense-nature",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "504683b8-99e0-438b-b74f-d5e7fa1ac516",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Druid"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_green.png",
+  "iconTexture": "skilltree:textures/icons/mana_maxup.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_green.png",
+  "title": "Mente",
+  "titleColor": "B8EB70",
+  "positionX": -206.991,
+  "positionY": -284.72,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

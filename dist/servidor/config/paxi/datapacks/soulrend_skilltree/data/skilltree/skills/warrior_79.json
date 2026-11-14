@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_79",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "e31915c0-e5eb-4ac5-a857-cfd9a67a7d78",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_4"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "minecraft:textures/mob_effect/strength.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -127.28833,
+  "positionY": -111.49875,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

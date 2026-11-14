@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:rogue_84",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_avoidance",
+      "chance": 0.1,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.8,
+        "logic": "AT_LEAST",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:rogue_3"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/dodge1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -94.063995,
+  "positionY": 114.9954,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

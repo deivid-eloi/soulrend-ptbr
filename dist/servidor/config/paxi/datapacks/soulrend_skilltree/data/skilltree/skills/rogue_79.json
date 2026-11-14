@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_79",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stun_armor",
+      "id": "d6c893cb-4a03-414b-8b62-4b5dc2b16ce4",
+      "name": "Skill",
+      "amount": 6.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:rogue_7"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "magistuarmory:textures/item/ceremonial_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 151.29713,
+  "positionY": 64.163734,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

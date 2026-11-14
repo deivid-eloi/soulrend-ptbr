@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:warrior_140",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stun_armor",
+      "id": "3f3d5234-cc6f-46f3-8029-a98b88326570",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_yellow.png",
+  "iconTexture": "magistuarmory:textures/item/ceremonial_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_orange.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": 433.1432,
+  "positionY": 51.825367,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10 de Armadura contra Atordoamento com armadura pesada equipada"
+    }
+  ]
+}

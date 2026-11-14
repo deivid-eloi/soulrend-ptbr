@@ -1,0 +1,80 @@
+{
+  "id": "skilltree:ranger_79",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_pierce",
+      "id": "93238130-9067-4f56-9e48-4115ddacf3f7",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_shred",
+      "id": "7c68f32e-6b6f-48e5-b085-30412243e191",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_shred",
+      "id": "7a694a11-19b5-4879-960e-5ca84446f650",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_pierce",
+      "id": "b7cf8f7a-f730-47f4-aa6a-9f6c2234d109",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_80"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_light_blue.png",
+  "iconTexture": "efn:textures/mob_effect/blood_blessing.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -262.56738,
+  "positionY": -137.66669,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "3",
+        {
+          "translate": "attributeslib:armor_pierce"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "3",
+        {
+          "translate": "attributeslib:armor_shred"
+        }
+      ]
+    }
+  ]
+}

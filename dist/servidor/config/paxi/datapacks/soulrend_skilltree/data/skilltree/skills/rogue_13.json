@@ -1,0 +1,76 @@
+{
+  "id": "skilltree:rogue_13",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "90b3b19f-48e5-493d-a270-93c72eeb1b7b",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 2
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "tag_id": "soulrend:heavy_armor",
+        "type": "skilltree:tag"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:rogue_121",
+    "skilltree:rogue_126",
+    "skilltree:rogue_131",
+    "skilltree:rogue_136"
+  ],
+  "oneWayConnections": [
+    "skilltree:rogue_91",
+    "skilltree:rogue_92",
+    "skilltree:rogue_90"
+  ],
+  "tags": [
+    "Rogue Subclass"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class_cyan.png",
+  "iconTexture": "minecraft:textures/mob_effect/bad_omen.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_cyan.png",
+  "title": "Escaramuçador",
+  "titleColor": "ebd93b",
+  "positionX": 255.4209,
+  "positionY": 4.7683716e-07,
+  "buttonSize": 40,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": true,
+      "f_131103_": true,
+      "f_131104_": true,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Dance ao redor do oponente e ataque quando ele baixar a guarda."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+20% de Estamina"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "Não pode usar Armadura Pesada"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:ranger_139",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "da316390-df28-45e7-9234-994277886157",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:ranger_7"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "alexsmobs:textures/mob_effect/fleet_footed.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 150.91585,
+  "positionY": 74.925644,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "20",
+        {
+          "translate": "attributeslib:dodge_chance"
+        }
+      ]
+    }
+  ]
+}

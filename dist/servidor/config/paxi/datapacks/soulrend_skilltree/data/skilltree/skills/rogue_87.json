@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:rogue_87",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.3,
+      "max_stacks": 3,
+      "effect": "minecraft:poison",
+      "duration": 400,
+      "amplifier": 6,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "player_condition": {
+          "effect": "minecraft:invisibility",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:lethal_poison"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Assassin Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_purple.png",
+  "iconTexture": "dungeons_and_combat:textures/mob_effect/poisoned_edge.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_purple.png",
+  "title": "Pedra Angular - [ Assassino ]",
+  "titleColor": "db1818",
+  "positionX": -243.6366,
+  "positionY": 60.388733,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

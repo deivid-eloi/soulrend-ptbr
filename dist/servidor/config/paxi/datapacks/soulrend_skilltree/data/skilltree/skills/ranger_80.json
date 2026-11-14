@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:ranger_80",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_pierce",
+      "id": "7b25682d-b4ec-442d-ac1a-60cc175e3397",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_shred",
+      "id": "c7ee86d4-e620-477f-bd05-7a02f24ac564",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_82"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_light_blue.png",
+  "iconTexture": "efn:textures/mob_effect/blood_blessing.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": -292.04996,
+  "positionY": -159.08942,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

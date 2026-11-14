@@ -1,0 +1,57 @@
+{
+  "id": "skilltree:warrior_berserker",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "alexscaves:rage",
+      "duration": 40,
+      "amplifier": 0,
+      "event_listener": {
+        "cooldown": 30,
+        "type": "skilltree:ticking"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_95",
+    "skilltree:warrior_100",
+    "skilltree:warrior_105",
+    "skilltree:warrior_110"
+  ],
+  "oneWayConnections": [
+    "skilltree:warrior_160",
+    "skilltree:warrior_161",
+    "skilltree:warrior_159"
+  ],
+  "tags": [
+    "Warrior Subclass"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class_red.png",
+  "iconTexture": "iceandfire:textures/item/mountain_troll_leather_helmet.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_red.png",
+  "title": "Berserker",
+  "titleColor": "ebd93b",
+  "positionX": -246.55957,
+  "positionY": 4.6666675,
+  "buttonSize": 40,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Ganha Fúria enquanto empunha arma de duas mãos"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "Você não pode usar armas de ladino na mão secundária"
+    }
+  ]
+}

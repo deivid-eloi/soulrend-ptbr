@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:mage-1a-ctr",
+  "bonuses": [
+    {
+      "type": "skilltree:effect_duration",
+      "effect_predicate": {
+        "effect_type": "beneficial",
+        "type": "skilltree:effect_category"
+      },
+      "duration": 0.025,
+      "target": "player"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-2a-ctr"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_emerald.png",
+  "iconTexture": "skilltree:textures/icons/potion_green_small.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor",
+  "titleColor": "ab24b3",
+  "positionX": 108.36604,
+  "positionY": 95.7253,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

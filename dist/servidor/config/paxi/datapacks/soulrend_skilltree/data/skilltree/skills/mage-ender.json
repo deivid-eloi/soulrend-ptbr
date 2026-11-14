@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-ender",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "a991f70f-c7bc-4e9c-ac82-c1b5fa34142e",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_offense-ender",
+    "skilltree:mage-1b-nt_defense-ender",
+    "skilltree:mage-1b-nt_utility-ender"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-ender",
+    "skilltree:mage-ks_offense-ender",
+    "skilltree:mage-ks_utility-ender"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class6.png",
+  "iconTexture": "minecraft:textures/item/ender_dragon_spawn_egg.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_purple.png",
+  "title": "Mago do Vazio",
+  "titleColor": "ab24b3",
+  "positionX": 2.7418137e-06,
+  "positionY": 309.99982,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

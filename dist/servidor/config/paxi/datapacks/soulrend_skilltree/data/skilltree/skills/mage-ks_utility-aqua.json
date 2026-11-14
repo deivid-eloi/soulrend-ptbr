@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-aqua",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:school/traveloptics/aqua",
+      "id": "fba5b1b8-a14c-4103-bf80-6f8ff6f9823e",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Aqua"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_blue.png",
+  "iconTexture": "skilltree:textures/icons/book13.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_lightblue.png",
+  "title": "Mente",
+  "titleColor": "A8B7FF",
+  "positionX": -493.097,
+  "positionY": 96.71,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

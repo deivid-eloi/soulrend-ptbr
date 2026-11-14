@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:rogue_151",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:step_height_addition",
+      "id": "52b5b917-779a-494e-a0ce-3908999801c7",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:light_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_cyan.png",
+  "iconTexture": "ftblibrary:textures/icons/up.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_teal.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 202.59239,
+  "positionY": -196.49829,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 de Altura de Passo com armadura leve equipada"
+    }
+  ]
+}

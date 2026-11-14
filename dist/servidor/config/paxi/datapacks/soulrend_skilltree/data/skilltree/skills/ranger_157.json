@@ -1,0 +1,68 @@
+{
+  "id": "skilltree:ranger_157",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "2d1e3519-2c37-4d7b-9e99-c16dceca1f80",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "ebb3ce2b-574a-49c2-b8ff-96037b320083",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_turqoise.png",
+  "iconTexture": "skilltree:textures/icons/cross_green.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -459.1588,
+  "positionY": -116.16038,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_equipped",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "20",
+            {
+              "translate": "attributeslib:overheal"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_equipped.target.player"
+        },
+        {
+          "translate": "item_condition.skilltree.equipment_type.ranged_weapon"
+        }
+      ]
+    }
+  ]
+}

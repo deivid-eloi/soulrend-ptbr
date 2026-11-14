@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-holy",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "f672c357-d702-4765-8349-96d9380ba0c0",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_offense-holy",
+    "skilltree:mage-1b-nt_defense-holy",
+    "skilltree:mage-1b-nt_utility-holy"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-holy",
+    "skilltree:mage-ks_offense-holy",
+    "skilltree:mage-ks_utility-holy"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "aquamirae:textures/particle/shine_7.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_white.png",
+  "title": "Sacerdote",
+  "titleColor": "FFFBE8",
+  "positionX": 518.255,
+  "positionY": -232.778,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

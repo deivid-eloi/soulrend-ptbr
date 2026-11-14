@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_ice",
+      "id": "212eb77b-0422-4d39-8187-0e2e8831d0b7",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Cryo"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_cyan.png",
+  "iconTexture": "skilltree:textures/icons/book11.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_teal.png",
+  "title": "Mente",
+  "titleColor": "DEF8FF",
+  "positionX": -288.502,
+  "positionY": 243.643,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:rogue_129",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "333352e4-d6d5-48b5-8c8c-85fcfd4da53a",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_130"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_cyan.png",
+  "iconTexture": "alexsmobs:textures/item/falconry_glove.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 417.39578,
+  "positionY": -108.08978,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

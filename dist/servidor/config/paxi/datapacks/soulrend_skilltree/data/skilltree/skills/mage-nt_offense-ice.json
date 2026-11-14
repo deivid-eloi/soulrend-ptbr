@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_offense-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "id": "f3c209b9-1b9e-4312-9c95-b9f38da878d6",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_offense-ice"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_offense-ice",
+    "skilltree:mage-nt_offense-nt_offense-ice",
+    "skilltree:mage-nt_utility-nt_offense-ice"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "soulsweapons:textures/mob_effect/freezing.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Senciência",
+  "titleColor": "DEF8FF",
+  "positionX": -217.065,
+  "positionY": 236.455,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

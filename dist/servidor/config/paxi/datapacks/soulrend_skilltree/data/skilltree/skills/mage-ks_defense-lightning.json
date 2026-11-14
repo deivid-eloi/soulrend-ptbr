@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:mage-ks_defense-lightning",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "0b24dea5-1f78-4ee9-95f6-efd200cbbb84",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Electro"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "irons_spellbooks:textures/mob_effect/fortify.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_orange.png",
+  "title": "Mente",
+  "titleColor": "FFFBE8",
+  "positionX": -705.4369,
+  "positionY": -46.42277,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

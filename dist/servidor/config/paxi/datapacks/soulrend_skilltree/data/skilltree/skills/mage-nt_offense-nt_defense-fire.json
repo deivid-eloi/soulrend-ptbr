@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_offense-nt_defense-fire",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "9297dec2-a8c1-454d-9bb5-2c85d09b6165",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_moon_blood.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Senciência",
+  "titleColor": "EB9570",
+  "positionX": -452.0982,
+  "positionY": -179.97618,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

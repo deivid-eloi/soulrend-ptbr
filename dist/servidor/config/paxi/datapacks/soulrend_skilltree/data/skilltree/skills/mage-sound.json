@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "familiarslib:sound_spell_power",
+      "id": "e15bf4ae-4f44-497c-ac2d-541fcdfa3597",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_offense-sound",
+    "skilltree:mage-1b-nt_defense-sound",
+    "skilltree:mage-1b-nt_utility-sound"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-sound",
+    "skilltree:mage-ks_offense-sound",
+    "skilltree:mage-ks_utility-sound"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class7.png",
+  "iconTexture": "alshanex_familiars:textures/particle/clef_13.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_magenta.png",
+  "title": "Bardo",
+  "titleColor": "70EBD6",
+  "positionX": 260.682,
+  "positionY": -304.243,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

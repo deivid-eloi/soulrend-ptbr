@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-blood",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_blood",
+      "id": "30f8b42a-5894-42a0-a91d-34eff311ad7e",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Cultist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "skilltree:textures/icons/book4.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_red.png",
+  "title": "Mente",
+  "titleColor": "C43329",
+  "positionX": 510.2531,
+  "positionY": 120.00541,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

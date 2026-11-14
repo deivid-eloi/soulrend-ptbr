@@ -1,0 +1,102 @@
+{
+  "id": "skilltree:warrior_163",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "64afee70-43a9-4afb-bd34-fefb82d6685c",
+      "name": "Skill",
+      "amount": 0.6,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:shields",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "7c586710-0980-4ca0-b1c1-cb3954982493",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:shields",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "0fc10338-952e-4418-a8f8-bb5adb4c0573",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.armor",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 50.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:shields",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Templar Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "dungeons_and_combat:textures/item/golden_shield.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_orange.png",
+  "title": "Hoplita",
+  "titleColor": "db1818",
+  "positionX": 196.20361,
+  "positionY": -22.001822,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+60% de Armadura com escudo em mãos"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% de Resistência da Armadura com escudo em mãos"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 de Dano de Ataque a cada 50 de Armadura com escudo em mãos"
+    }
+  ]
+}

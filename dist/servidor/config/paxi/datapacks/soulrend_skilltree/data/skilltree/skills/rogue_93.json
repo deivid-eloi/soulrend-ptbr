@@ -1,0 +1,70 @@
+{
+  "id": "skilltree:rogue_93",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:impact",
+      "id": "7c93df89-e05d-4c15-b40b-1152890e35e9",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "my_tags:weapons/dualwield",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:offhand_impact",
+      "id": "1d60596e-77ac-4dde-82c5-7858a266ee35",
+      "name": "Skill",
+      "amount": 4.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "my_tags:weapons/dualwield",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:rogue_120"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_162",
+    "skilltree:rogue_163",
+    "skilltree:rogue_164"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_magenta.png",
+  "iconTexture": "projectile_damage:textures/mob_effect/impact.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -243.98679,
+  "positionY": 180.28577,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2 de Impacto com armas de ladino "
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+4 de Impacto da Mão Secundária com armas de ladino"
+    }
+  ]
+}

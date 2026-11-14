@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:mage-6b-nt_defense-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "843ffcc7-8550-4761-b7b8-b76c86535b39",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "familiarslib:sound_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_turquoise.png",
+  "iconTexture": "skilltree:textures/icons/aim12.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_magenta.png",
+  "title": "Menor",
+  "titleColor": "70EBD6",
+  "positionX": 241.20178,
+  "positionY": -235.18605,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_utility-nt_defense-aqua",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "traveloptics:aqua_spell_power",
+      "id": "be00e778-f1cd-4a82-b0ab-d4af5f054fd1",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_light_blue.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Senciência",
+  "titleColor": "A8B7FF",
+  "positionX": -534.4299,
+  "positionY": 182.5667,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

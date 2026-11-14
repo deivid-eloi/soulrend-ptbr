@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:warrior_149",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "eca0862c-e823-4510-8709-65ad0ada1a0b",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.1,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring.png",
+  "iconTexture": "skilltree:textures/icons/crit_dmg.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -193.73358,
+  "positionY": -191.83633,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% de Dano Crítico a cada 10% de vida perdida com arma de duas mãos em mãos"
+    }
+  ]
+}

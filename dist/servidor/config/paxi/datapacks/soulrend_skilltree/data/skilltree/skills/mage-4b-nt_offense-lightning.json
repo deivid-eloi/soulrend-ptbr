@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-4b-nt_offense-lightning",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "5c6f91bd-df53-4d57-a354-cef1830762eb",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-5b-nt_offense-lightning"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_yellow.png",
+  "iconTexture": "skilltree:textures/icons/sparkles.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_yellow.png",
+  "title": "Menor",
+  "titleColor": "FFFBE8",
+  "positionX": -597.004,
+  "positionY": -122.901825,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

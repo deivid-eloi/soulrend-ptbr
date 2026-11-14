@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:warrior_82",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_shred",
+      "id": "5cb44893-1215-433b-8ff0-65b7bdba6220",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Warrior Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "aquamirae:textures/item/terrible_fang_alt.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Pedra Angular",
+  "titleColor": "db1818",
+  "positionX": -29.0,
+  "positionY": -40.0,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

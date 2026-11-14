@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:ranger_125",
+  "bonuses": [
+    {
+      "type": "skilltree:grant_spell",
+      "spell_id": "irons_spellbooks:root",
+      "spell_level": 5
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_moon_blood.png",
+  "iconTexture": "combat_evolution:textures/mob_effect/bypass_dodge_effect.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 322.72974,
+  "positionY": 174.9726,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

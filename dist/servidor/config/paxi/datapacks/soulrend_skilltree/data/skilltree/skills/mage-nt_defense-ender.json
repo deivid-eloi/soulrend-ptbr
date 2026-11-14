@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_defense-ender",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "id": "c7b4f565-2269-4749-99d2-fb1f210b62b5",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_defense-ender"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_defense-ender",
+    "skilltree:mage-nt_offense-nt_defense-ender",
+    "skilltree:mage-nt_utility-nt_defense-ender"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "traveloptics:textures/mob_effect/astral_path_reveal.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": -0.3571397,
+  "positionY": 392.0337,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

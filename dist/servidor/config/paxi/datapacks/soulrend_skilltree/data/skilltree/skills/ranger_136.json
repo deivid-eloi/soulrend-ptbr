@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:ranger_136",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.25,
+      "max_stacks": 1,
+      "effect": "minecraft:slowness",
+      "duration": 10,
+      "amplifier": 4,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "ranged_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:ranger_6"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "irons_spellbooks:textures/mob_effect/slowed.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 116.27204,
+  "positionY": -108.459854,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

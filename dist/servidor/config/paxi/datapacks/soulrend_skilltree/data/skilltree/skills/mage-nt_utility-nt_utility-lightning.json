@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_utility-nt_utility-lightning",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "id": "f6852f07-a1b7-4a5e-a1a9-eede052b9dbb",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_moon_yellow.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_3.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_yellow.png",
+  "title": "Senciência",
+  "titleColor": "FFFBE8",
+  "positionX": -779.38513,
+  "positionY": -129.88107,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

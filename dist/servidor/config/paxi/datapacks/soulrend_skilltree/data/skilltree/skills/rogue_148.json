@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:rogue_148",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:offhand_attack_speed",
+      "id": "319008b9-2344-4e25-812e-06431c2c5498",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:light_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_cyan.png",
+  "iconTexture": "efn:textures/mob_effect/attack_speed_increase.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_teal.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 346.34735,
+  "positionY": -113.50752,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0,25 de Velocidade de Ataque da Mão Secundária com armadura leve equipada"
+    }
+  ]
+}

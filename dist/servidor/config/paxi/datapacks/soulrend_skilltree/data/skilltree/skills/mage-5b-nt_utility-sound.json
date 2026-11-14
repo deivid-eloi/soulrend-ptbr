@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-5b-nt_utility-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "51151227-0225-4fa7-ab42-0221847cc45c",
+      "name": "Skill",
+      "amount": 0.0017,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "familiarslib:sound_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-6b-nt_utility-sound"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_turquoise.png",
+  "iconTexture": "skilltree:textures/icons/swirly3.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_magenta.png",
+  "title": "Menor",
+  "titleColor": "70EBD6",
+  "positionX": 166.93896,
+  "positionY": -353.68378,
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

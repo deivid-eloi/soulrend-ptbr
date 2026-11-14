@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:ranger_51",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "c28ba7b8-bd3c-4354-a288-23caacc624cc",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 2,
+      "player_condition": {
+        "reverse_logic": false,
+        "type": "skilltree:crouching"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_52"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_iron.png",
+  "iconTexture": "alexscaves:textures/item/seeking_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Menor ",
+  "titleColor": "",
+  "positionX": 28.370142,
+  "positionY": 149.35791,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,102 @@
+{
+  "id": "skilltree:warrior_164",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "af7e2816-ab49-4ef1-a582-e73b01c5dac8",
+      "name": "Skill",
+      "amount": 0.6,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "d3f6f713-9c37-4dfa-b1d5-4f3ed3984ef8",
+      "name": "Skill",
+      "amount": 0.4,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "7450e53e-e454-4a31-b4d8-3e56bd078ed4",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 50.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Templar Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "magistuarmory:textures/item/horse_decoration.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_orange.png",
+  "title": "Cavaleiro",
+  "titleColor": "db1818",
+  "positionX": 276.905,
+  "positionY": -23.673,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+60% de Vida Máxima com armadura pesada equipada"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+40% de Armadura com armadura pesada equipada"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 de Dano Máximo a cada 50 de Vida Máxima com armadura pesada equipada"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-nature",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "db363823-cc38-447d-b0b5-1c70b7d52b21",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_defense-nature",
+    "skilltree:mage-1b-nt_offense-nature",
+    "skilltree:mage-1b-nt_utility-nature"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-nature",
+    "skilltree:mage-ks_offense-nature",
+    "skilltree:mage-ks_utility-nature"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class12.png",
+  "iconTexture": "minecraft:textures/mob_effect/luck.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_green.png",
+  "title": "Druida",
+  "titleColor": "B8EB70",
+  "positionX": -242.895,
+  "positionY": -305.724,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:ranger_159",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "e1abd183-9d8f-46f5-a973-e82f3e726162",
+      "name": "Skill",
+      "amount": 0.075,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 0.5,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "required_value": 15.0,
+        "logic": "AT_MOST",
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_turqoise.png",
+  "iconTexture": "minecraft:textures/block/target_top.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -353.2964,
+  "positionY": 51.662064,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

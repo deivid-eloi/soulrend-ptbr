@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:ranger_18",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "e2ce8ff8-5c12-4776-9516-a55a5c567630",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Hexshot Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "alexsmobs:textures/mob_effect/fleet_footed.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_red.png",
+  "title": "Pedra Angular",
+  "titleColor": "db1818",
+  "positionX": 268.4833,
+  "positionY": 51.74936,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

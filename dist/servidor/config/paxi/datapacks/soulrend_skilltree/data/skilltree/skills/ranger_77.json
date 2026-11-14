@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:ranger_77",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "539fa3bd-57fb-447d-a69a-32c8dbcc8001",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:ranger_92"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_156",
+    "skilltree:ranger_157",
+    "skilltree:ranger_158"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/crit_dmg8.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -406.33038,
+  "positionY": -85.66166,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

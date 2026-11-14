@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:warrior_71",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stamina_regen",
+      "id": "93d54d8a-d945-43e9-a4db-88db2a6202b6",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "e0b7b4af-68f1-4d9a-a68b-13d9ca482812",
+      "name": "Skill",
+      "amount": 20.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_2"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/stamina5.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": 0.6669922,
+  "positionY": 175.33331,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

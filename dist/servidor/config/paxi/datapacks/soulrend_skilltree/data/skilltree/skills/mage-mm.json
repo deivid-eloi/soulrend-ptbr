@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:mage-mm",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "8c783d14-fa03-45a8-9abf-6f5f1f4f4871",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-8a-mm"
+  ],
+  "longConnections": [
+    "skilltree:mage-offense-mm",
+    "skilltree:mage-utility_2-mm"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "skilltree:textures/icons/mana.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mana Máxima",
+  "titleColor": "ab24b3",
+  "positionX": 104.04608,
+  "positionY": -60.73334,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

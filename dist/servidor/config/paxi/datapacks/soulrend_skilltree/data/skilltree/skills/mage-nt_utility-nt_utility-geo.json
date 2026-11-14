@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_utility-nt_utility-geo",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:school/gtbcs_geomancy_plus/geo",
+      "id": "2a2ed864-34b4-4e31-8662-33880f5e88e2",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_orange.png",
+  "iconTexture": "irons_spellbooks:textures/item/raw_mithril.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_orange.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": -116.04492,
+  "positionY": -407.22144,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

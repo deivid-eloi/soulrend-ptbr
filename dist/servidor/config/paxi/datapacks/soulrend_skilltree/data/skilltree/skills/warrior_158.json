@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:warrior_158",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "b69f3ddf-cfab-4bde-a94b-7226f23eb770",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.2,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring.png",
+  "iconTexture": "epicfightx:textures/mob_effect/efx_speed.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -193.73398,
+  "positionY": 140.1633,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% de Velocidade a cada 20% de vida perdida com arma de duas mãos em mãos"
+    }
+  ]
+}

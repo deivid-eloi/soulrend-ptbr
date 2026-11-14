@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:rogue_89",
+  "bonuses": [
+    {
+      "type": "skilltree:grant_spell",
+      "spell_id": "irons_spellbooks:blood_step",
+      "spell_level": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:dual_wielding"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Assassin Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_purple.png",
+  "iconTexture": "traveloptics:textures/mob_effect/vigor_siphon.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_purple.png",
+  "title": "Pedra Angular - [ Assassino ]",
+  "titleColor": "db1818",
+  "positionX": -204.5508,
+  "positionY": -9.84775,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Concede o feitiço Passo de Sangue 1 com armas de ladino em cada mão"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "skilltree:warrior_146",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.15,
+      "max_stacks": 3,
+      "effect": "attributeslib:bleeding",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "tag_id": "soulrend:heavy_armor",
+            "type": "skilltree:tag"
+          },
+          "type": "skilltree:has_item_equipped"
+        },
+        "target": "enemy",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_yellow.png",
+  "iconTexture": "attributeslib:textures/mob_effect/bleeding.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_orange.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": 289.3803,
+  "positionY": -197.17012,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+15% de Chance de causar Sangramento por 10 segundos ao bloquear com armadura pesada equipada, acumula até 3 vezes"
+    }
+  ]
+}

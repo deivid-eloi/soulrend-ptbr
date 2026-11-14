@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:warrior_137",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "38411403-83ec-4e6b-bc71-416c31c077e4",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_moon_yellow.png",
+  "iconTexture": "skilltree:textures/icons/cross_green.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_orange.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": 289.3803,
+  "positionY": 134.82988,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% de Sobrecura com armadura pesada equipada"
+    }
+  ]
+}

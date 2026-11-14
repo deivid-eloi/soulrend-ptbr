@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:ranger_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "6db60716-9af3-4224-88d4-dbe259481560",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2,
+      "player_condition": {
+        "reverse_logic": false,
+        "type": "skilltree:crouching"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:ranger_56"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "minecraft:textures/item/spectral_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -0.47642303,
+  "positionY": 128.85715,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

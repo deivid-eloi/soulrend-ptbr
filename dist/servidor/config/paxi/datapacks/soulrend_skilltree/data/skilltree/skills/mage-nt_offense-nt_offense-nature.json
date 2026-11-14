@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_offense-nt_offense-nature",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "b240659f-72bd-46b6-8020-a96a1c5edf4c",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_green2.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_green.png",
+  "title": "Senciência",
+  "titleColor": "B8EB70",
+  "positionX": -138.81927,
+  "positionY": -372.1474,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

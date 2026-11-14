@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:rogue_95",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "5bb901d3-a999-421f-920e-921ad2a6bbba",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:dual_wielding"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:rogue_110"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_156",
+    "skilltree:rogue_157",
+    "skilltree:rogue_158"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_magenta.png",
+  "iconTexture": "skilltree:textures/icons/crit_dmg.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -388.75082,
+  "positionY": -69.37648,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+50% de Dano Crítico empunhando armas de ladino nas duas mãos"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:warrior_berserker_shred",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "f311ed2e-11cf-4d71-99d6-7b1b564ce789",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_104"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_150",
+    "skilltree:warrior_151",
+    "skilltree:warrior_152"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_red.png",
+  "iconTexture": "minecraft:textures/mob_effect/strength.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -390.32257,
+  "positionY": -78.32834,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% de Dano de Ataque com arma de duas mãos em mãos"
+    }
+  ]
+}

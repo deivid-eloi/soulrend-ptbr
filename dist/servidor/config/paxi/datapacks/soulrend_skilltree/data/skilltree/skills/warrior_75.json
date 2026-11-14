@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_75",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:weight",
+      "id": "40ded3c2-f8a9-4cb4-b3d4-d6499932017a",
+      "name": "Skill",
+      "amount": -0.2,
+      "operation": 2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_3"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "minecraft:textures/mob_effect/slow_falling.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -151.89496,
+  "positionY": 70.16372,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

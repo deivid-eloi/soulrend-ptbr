@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:ranger_76",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "7a4443dc-be8e-40a2-a129-25c43cce1d14",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 0.5,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "required_value": 10.0,
+        "logic": "AT_MOST",
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:ranger_97"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_159",
+    "skilltree:ranger_160",
+    "skilltree:ranger_161"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "minecraft:textures/item/spectral_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_lightblue.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -406.32227,
+  "positionY": 80.32875,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

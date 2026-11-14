@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-aqua",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "traveloptics:aqua_spell_power",
+      "id": "15ae1099-45ed-4c4b-8e83-a7604d1fd5aa",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_offense-aqua",
+    "skilltree:mage-1b-nt_defense-aqua",
+    "skilltree:mage-1b-nt_utility-aqua"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-aqua",
+    "skilltree:mage-ks_offense-aqua",
+    "skilltree:mage-ks_utility-aqua"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class_light_blue.png",
+  "iconTexture": "traveloptics:textures/item/scroll_aqua.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_blue.png",
+  "title": "Aquamante",
+  "titleColor": "A8B7FF",
+  "positionX": -493.056,
+  "positionY": 129.815,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

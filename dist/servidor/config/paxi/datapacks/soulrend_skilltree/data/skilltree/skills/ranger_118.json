@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:ranger_118",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additionalentityattributes:generic.jump_height",
+      "id": "60b063b5-bf8a-4519-b5cb-3379f4d9efa7",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_119"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro.png",
+  "iconTexture": "minecraft:textures/mob_effect/jump_boost.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Menor",
+  "titleColor": "",
+  "positionX": 269.33252,
+  "positionY": 136.71432,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

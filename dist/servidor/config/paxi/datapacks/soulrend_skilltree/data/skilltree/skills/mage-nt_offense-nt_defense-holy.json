@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_offense-nt_defense-holy",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "3a908894-6605-4b41-a672-33907b47c1c1",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_turqoise.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Senciência",
+  "titleColor": "FFFBE8",
+  "positionX": 563.223,
+  "positionY": -183.301,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

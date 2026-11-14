@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-nature",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_nature",
+      "id": "f86fef9a-b023-4823-80a4-20a93c611eb7",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Druid"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_green.png",
+  "iconTexture": "skilltree:textures/icons/book9.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_green.png",
+  "title": "Mente",
+  "titleColor": "B8EB70",
+  "positionX": -243.91481,
+  "positionY": -346.87006,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

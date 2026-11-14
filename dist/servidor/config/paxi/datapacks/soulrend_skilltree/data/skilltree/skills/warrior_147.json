@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:warrior_147",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "212e05a5-a1d7-4308-b557-c84c81f0008d",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.4,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring.png",
+  "iconTexture": "efn:textures/mob_effect/attack_speed_increase.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -246.55957,
+  "positionY": -214.99991,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% de Velocidade de Ataque a cada 40% de vida perdida com arma de duas mãos em mãos."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-evocation",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_evocation",
+      "id": "69fb8e71-4b49-4710-910a-c9e130172c7b",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Evoker"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_pink.png",
+  "iconTexture": "skilltree:textures/icons/book15.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 686.3886,
+  "positionY": -94.65139,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

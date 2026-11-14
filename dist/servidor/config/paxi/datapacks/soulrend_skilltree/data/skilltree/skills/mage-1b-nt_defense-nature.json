@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-1b-nt_defense-nature",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "6c9d02f4-19a7-4e15-8a9d-8ec860d41579",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-2b-nt_defense-nature"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/ouro_green.png",
+  "iconTexture": "skilltree:textures/icons/aim14.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_green.png",
+  "title": "Menor",
+  "titleColor": "B8EB70",
+  "positionX": -242.56142,
+  "positionY": -254.08096,
+  "buttonSize": 15,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

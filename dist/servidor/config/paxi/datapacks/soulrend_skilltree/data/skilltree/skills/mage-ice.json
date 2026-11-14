@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "id": "ddb1db69-ba35-4fb3-901f-c108ee7adfb5",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_offense-ice",
+    "skilltree:mage-1b-nt_defense-ice",
+    "skilltree:mage-1b-nt_utility-ice"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-ice",
+    "skilltree:mage-ks_offense-ice",
+    "skilltree:mage-ks_utility-ice"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class2.png",
+  "iconTexture": "dungeons_and_combat:textures/item/dragonsteel_ice_helmet.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_cyan.png",
+  "title": "Criomante",
+  "titleColor": "DEF8FF",
+  "positionX": -288.843,
+  "positionY": 279.798,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

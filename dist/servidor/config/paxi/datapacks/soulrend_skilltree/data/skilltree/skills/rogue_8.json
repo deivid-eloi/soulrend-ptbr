@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:rogue_8",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "e049651b-69a5-4c2d-983d-20161b6c0a25",
+      "name": "Skill",
+      "amount": 0.4,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:dual_wielding"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Rogue Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_cyan.png",
+  "iconTexture": "skilltree:textures/icons/crit_dmg2.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Pedra Angular - [ Ladino ]",
+  "titleColor": "db1818",
+  "positionX": 0.24710654,
+  "positionY": 44.64831,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+40% de Chance de Crítico empunhando armas de ladino nas duas mãos"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_defense-nt_offense-blood",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_type_devour",
+      "id": "24f4f469-73ff-4d39-8395-fa9801974c24",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_purple.png",
+  "iconTexture": "dungeons_and_combat:textures/mob_effect/life_steal.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_purple.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 585.60803,
+  "positionY": 162.27081,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_7",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "20eda378-d296-4b77-a571-9c0e6a24e223",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "quark:textures/item/diamond_heart.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Robusto",
+  "titleColor": "176b8f",
+  "positionX": 94.739075,
+  "positionY": 65.66162,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

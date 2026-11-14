@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-geo",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "id": "c7971b32-949d-43f7-8c9b-bc1d47e629bc",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_defense-geo",
+    "skilltree:mage-1b-nt_offense-geo",
+    "skilltree:mage-1b-nt_utility-geo"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-geo",
+    "skilltree:mage-ks_offense-geo",
+    "skilltree:mage-ks_utility-geo"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class10.png",
+  "iconTexture": "aquamirae:textures/item/abyssal_amethyst.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_orange.png",
+  "title": "Geomante",
+  "titleColor": "ab24b3",
+  "positionX": 0.7411029,
+  "positionY": -338.8886,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

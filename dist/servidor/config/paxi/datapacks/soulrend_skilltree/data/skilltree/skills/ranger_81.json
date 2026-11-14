@@ -1,0 +1,53 @@
+{
+  "id": "skilltree:ranger_81",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:step_height_addition",
+      "id": "1f34dc10-27a8-40a1-b291-535ef1b5dc36",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:ranger_123",
+    "skilltree:ranger_124",
+    "skilltree:ranger_125"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "skilltree:textures/icons/bow_crit.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": 267.90332,
+  "positionY": 166.66661,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

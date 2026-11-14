@@ -1,0 +1,131 @@
+{
+  "id": "skilltree:ranger_8",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "adea4700-c0ea-416a-b95a-218fd6613a33",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "41182c0b-45cd-4bfe-ae66-cc29fa56af4e",
+      "name": "Skill",
+      "amount": -0.2,
+      "operation": 2,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 2.5,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "required_value": 5.0,
+        "logic": "AT_MOST",
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "7d0f931d-53df-4c74-a299-fef75a2ede2f",
+      "name": "Skill",
+      "amount": -0.2,
+      "operation": 2,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 2.5,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "required_value": 10.0,
+        "logic": "AT_MOST",
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:ranger_103",
+    "skilltree:ranger_108",
+    "skilltree:ranger_113",
+    "skilltree:ranger_118"
+  ],
+  "oneWayConnections": [
+    "skilltree:ranger_18",
+    "skilltree:ranger_19",
+    "skilltree:ranger_20"
+  ],
+  "tags": [
+    "Ranger Subclass"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class_red.png",
+  "iconTexture": "too_many_bows:textures/item/flame_bow_pulling_2_e.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_red.png",
+  "title": "Tiro Maldito",
+  "titleColor": "ebd93b",
+  "positionX": 267.90332,
+  "positionY": 0.6666662,
+  "buttonSize": 40,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Derrube seus inimigos com uma quantidade esmagadora de disparos, mas abra mão de parte do dano por causa da precisão"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+50% de Velocidade de Puxada"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "-20% de Velocidade da Flecha a cada 2,5 blocos do inimigo"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "-20% de Dano de Flecha a cada 2,5 blocos do inimigo"
+    }
+  ]
+}

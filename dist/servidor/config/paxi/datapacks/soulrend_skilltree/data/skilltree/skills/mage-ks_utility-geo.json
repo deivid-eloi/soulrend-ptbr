@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-geo",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:school/gtbcs_geomancy_plus/geo",
+      "id": "97234a24-5979-4718-87cf-4e12007ee0f8",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Geo"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "skilltree:textures/icons/book5.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_orange.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 0.7440998,
+  "positionY": -382.53842,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_offense-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "familiarslib:sound_spell_power",
+      "id": "b8d6cb8d-f9f6-4be8-a88d-56b0be928ee7",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_offense-sound"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_offense-sound",
+    "skilltree:mage-nt_offense-nt_offense-sound",
+    "skilltree:mage-nt_utility-nt_offense-sound"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "minecraft:textures/particle/note.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_magenta.png",
+  "title": "Senciência",
+  "titleColor": "70EBD6",
+  "positionX": 331.74506,
+  "positionY": -339.7118,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

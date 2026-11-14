@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:ranger_131",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "7e28231b-5486-4bc0-9258-7b80d28c3cde",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring.png",
+  "iconTexture": "skilltree:textures/item/gems/moonshade_4.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 464.48383,
+  "positionY": -112.84588,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

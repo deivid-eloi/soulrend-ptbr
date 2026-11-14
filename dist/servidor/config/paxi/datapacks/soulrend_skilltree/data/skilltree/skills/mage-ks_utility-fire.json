@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-fire",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_fire",
+      "id": "09e7a675-d9b4-4031-b06b-c91012ed3475",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Pyro"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "skilltree:textures/icons/book4.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_red.png",
+  "title": "Mente",
+  "titleColor": "EB9570",
+  "positionX": -493.89392,
+  "positionY": -282.98636,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

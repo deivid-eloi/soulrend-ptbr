@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_offense-lightning",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "id": "3e9b8a91-aae8-4478-8280-9321b87efce6",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_offense-lightning"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_offense-lightning",
+    "skilltree:mage-nt_offense-nt_offense-lightning",
+    "skilltree:mage-nt_utility-nt_offense-lightning"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "alexsmobs:textures/mob_effect/debilitating_sting.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_yellow.png",
+  "title": "Senciência",
+  "titleColor": "FFFBE8",
+  "positionX": -596.337,
+  "positionY": -100.698,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

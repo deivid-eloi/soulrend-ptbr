@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-eldritch",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_eldritch",
+      "id": "d43dff99-6513-4381-95c3-8463759c4855",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Elder"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "skilltree:textures/icons/book15.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 281.40652,
+  "positionY": 232.9909,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

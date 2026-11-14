@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:warrior_142",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:armor_negation",
+      "id": "2f4b700e-291b-4b24-95fe-d04f581421cb",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:armor_negation",
+      "id": "0c971612-224e-4dcb-95dd-97e0b84a2173",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_yellow.png",
+  "iconTexture": "efn:textures/mob_effect/attack_speed_increase.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_orange.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": 327.48108,
+  "positionY": -114.17413,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% de Negação de Armadura com armadura pesada equipada"
+    }
+  ]
+}

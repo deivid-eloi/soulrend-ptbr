@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:rogue_78",
+  "bonuses": [
+    {
+      "type": "skilltree:item_use_movement_speed",
+      "multiplier": -0.2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:rogue_7"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "epicfightx:textures/mob_effect/efx_speed.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 97.7404,
+  "positionY": 114.662,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

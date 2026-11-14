@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:ranger_16",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "096c1c0e-7622-494a-b423-e4586b8a61f9",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Sharpshooter Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_blue.png",
+  "iconTexture": "skilltree:textures/icons/crit_dmg.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_lightblue.png",
+  "title": "Pedra Angular",
+  "titleColor": "db1818",
+  "positionX": -298.47037,
+  "positionY": -27.615618,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

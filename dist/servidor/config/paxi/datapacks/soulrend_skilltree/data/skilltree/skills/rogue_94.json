@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:rogue_94",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "24375329-d7f1-483d-a83d-1d9acc838808",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:dual_wielding"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:rogue_115"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_159",
+    "skilltree:rogue_160",
+    "skilltree:rogue_161"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_magenta.png",
+  "iconTexture": "skilltree:textures/icons/crit_dmg9.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": -387.7416,
+  "positionY": 97.28113,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+25% de Chance de Crítico empunhando armas de ladino nas duas mãos"
+    }
+  ]
+}

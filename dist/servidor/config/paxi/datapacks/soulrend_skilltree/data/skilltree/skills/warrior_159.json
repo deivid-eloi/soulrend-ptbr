@@ -1,0 +1,99 @@
+{
+  "id": "skilltree:warrior_159",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:impact",
+      "id": "9cd3e551-07a4-4706-91d0-8cd7cbf10903",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.1,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "a4a1bf61-c059-471b-8906-bf25531f9f79",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.2,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend_tweaks:two_handed_weapons",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "fc953ab8-4c4d-4d72-9d9e-2e81c8b30c71",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Berserker Keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "samurai_dynasty:textures/item/iron_samurai_helmet.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_red.png",
+  "title": "Samurai",
+  "titleColor": "db1818",
+  "positionX": -246.55957,
+  "positionY": 48.450672,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 de Impacto a cada 10% de vida perdida com arma de duas mãos em mãos"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% de Chance de Esquiva a cada 20% de vida perdida com arma de duas mãos em mãos"
+    }
+  ]
+}

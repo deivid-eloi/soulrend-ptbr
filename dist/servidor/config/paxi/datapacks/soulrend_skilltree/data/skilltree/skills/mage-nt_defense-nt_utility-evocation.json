@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_defense-nt_utility-evocation",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "d017cf23-3cb1-4cb5-8f4a-ca987b78cb88",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_gray.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Senciência",
+  "titleColor": "FFFBE8",
+  "positionX": 616.56134,
+  "positionY": -54.756607,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

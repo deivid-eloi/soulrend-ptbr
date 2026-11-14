@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:mage-lightning",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "id": "a6411a0d-84d6-40d8-ba0e-a176e4456531",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-1b-nt_defense-lightning",
+    "skilltree:mage-1b-nt_offense-lightning",
+    "skilltree:mage-1b-nt_utility-lightning"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-ks_defense-lightning",
+    "skilltree:mage-ks_offense-lightning",
+    "skilltree:mage-ks_utility-lightning"
+  ],
+  "tags": [
+    "Class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class_yellow.png",
+  "iconTexture": "cataclysm:textures/particle/lightning_explosion_2.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_yellow.png",
+  "title": "Eletromante",
+  "titleColor": "FFFBE8",
+  "positionX": -666.948,
+  "positionY": -62.9,
+  "buttonSize": 35,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

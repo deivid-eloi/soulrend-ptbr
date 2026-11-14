@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_offense-nt_offense-eldritch",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "id": "49c7b30e-91dc-4116-839c-227ef361f7b1",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_moon.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_4.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 386.81277,
+  "positionY": 203.70078,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

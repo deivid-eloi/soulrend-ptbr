@@ -1,0 +1,47 @@
+{
+  "id": "skilltree:rogue_102",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_pierce",
+      "id": "1e0a4a1e-d655-4f0b-b75c-75cfba270dfd",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:light_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:rogue_150",
+    "skilltree:rogue_151",
+    "skilltree:rogue_152"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_cyan.png",
+  "iconTexture": "aquamirae:textures/item/terrible_chakram.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_teal.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": 255.4209,
+  "positionY": -165.99998,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+25% de Perfuração de Armadura com armadura leve equipada"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:mage-nt_offense-blood",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:summon_damage",
+      "id": "5f01ef5c-39bd-4b98-9096-5c19a2086756",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_offense-blood"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_offense-blood",
+    "skilltree:mage-nt_offense-nt_offense-blood",
+    "skilltree:mage-nt_utility-nt_offense-blood"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "dungeons_and_combat:textures/mob_effect/cursed_aura.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_red.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 584.73773,
+  "positionY": 118.2985,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

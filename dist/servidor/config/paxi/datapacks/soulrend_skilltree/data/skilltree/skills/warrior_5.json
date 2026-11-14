@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_5",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "c07ae0f4-5ee9-432a-8597-cdedacb4f985",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_16"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "minecraft:textures/mob_effect/health_boost.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Saudável",
+  "titleColor": "176b8f",
+  "positionX": 1.3339844,
+  "positionY": -115.9999,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

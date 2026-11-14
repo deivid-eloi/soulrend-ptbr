@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:mage-cdr",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "edadbb88-6e71-4d42-9ffd-522f05ccf9df",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-8a-cdr"
+  ],
+  "longConnections": [
+    "skilltree:mage-utility_1-cdr"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "wom:textures/item/golden_chrono.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Redução de Recarga",
+  "titleColor": "ab24b3",
+  "positionX": -98.04315,
+  "positionY": -65.0666,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

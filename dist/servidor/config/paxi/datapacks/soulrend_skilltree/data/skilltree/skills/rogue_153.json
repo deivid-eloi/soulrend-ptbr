@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:rogue_153",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.1,
+      "max_stacks": 1,
+      "effect": "minecraft:blindness",
+      "duration": 300,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "effect": "minecraft:invisibility",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_purple.png",
+  "iconTexture": "minecraft:textures/mob_effect/blindness.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_purple.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -243.98679,
+  "positionY": -90.71428,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

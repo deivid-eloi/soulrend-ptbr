@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:mage-ks_utility-holy",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:spell_school_holy",
+      "id": "0bbda593-43ae-4cfc-9a77-2f44f56f270d",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "block_factorys_bosses:knight_sword",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Priest"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_yellow.png",
+  "iconTexture": "skilltree:textures/icons/book7.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_yellow.png",
+  "title": "Mente",
+  "titleColor": "FFFBE8",
+  "positionX": 518.024,
+  "positionY": -268.5519,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

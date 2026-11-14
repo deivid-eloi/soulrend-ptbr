@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:mage-nt_utility-eldritch",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "e859c2b3-c489-4efc-a5ac-5441d67b5e8d",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_utility-eldritch"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_utility-eldritch",
+    "skilltree:mage-nt_offense-nt_utility-eldritch",
+    "skilltree:mage-nt_utility-nt_utility-eldritch"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "wom:textures/item/golden_chrono.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 206.77669,
+  "positionY": 236.50427,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

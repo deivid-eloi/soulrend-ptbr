@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_utility-nt_utility-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:school/familiarslib/sound",
+      "id": "9cd79520-1f03-4f34-842c-a2365aa240c9",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_magenta.png",
+  "iconTexture": "cataclysm:textures/item/music_disc_the_harbinger.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_magenta.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 150.44531,
+  "positionY": -367.93698,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

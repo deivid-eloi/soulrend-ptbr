@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:ranger_164",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_conversion",
+      "amount": 0.5,
+      "original_damage": {
+        "type": "skilltree:projectile"
+      },
+      "result_damage": {
+        "type": "skilltree:fire"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_turqoise.png",
+  "iconTexture": "soulsweapons:textures/mob_effect/veil_of_fire.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_lightblue.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": -320.2719,
+  "positionY": 181.87749,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,47 @@
+{
+  "id": "skilltree:ranger_123",
+  "bonuses": [
+    {
+      "type": "skilltree:item_use_movement_speed",
+      "multiplier": -0.4,
+      "item_condition": {
+        "equipment_type": "ranged_weapon",
+        "type": "skilltree:equipment_type"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "minecraft:slow_falling",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "ranged_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "cooldown": 100,
+        "type": "skilltree:ticking"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring.png",
+  "iconTexture": "dacxirons:textures/mob_effect/cast_speed.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável Única",
+  "titleColor": "ab24b3",
+  "positionX": 267.90332,
+  "positionY": 219.09511,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

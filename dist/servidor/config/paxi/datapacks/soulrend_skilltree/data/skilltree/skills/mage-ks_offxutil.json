@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:mage-ks_offxutil",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "5138fa2f-219a-44c5-a2d7-cf610a9d96e9",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": false,
+          "missing": false,
+          "type": "skilltree:mana_level"
+        },
+        "divisor": 300.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "nether_remastered:seal_crystal",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Mind"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone_dragon_red.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_bronze_fur.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_black.png",
+  "title": "Mente",
+  "titleColor": "ab24b3",
+  "positionX": 31.0379,
+  "positionY": -41.666664,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

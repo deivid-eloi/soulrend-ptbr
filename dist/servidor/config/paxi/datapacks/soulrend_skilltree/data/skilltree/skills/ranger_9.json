@@ -1,0 +1,105 @@
+{
+  "id": "skilltree:ranger_9",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "01be1e67-831f-4f79-a090-a0dcc811f40b",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "3919855a-354b-48f9-a74d-5924b697b27f",
+      "name": "Skill",
+      "amount": -0.4,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "minecraft:night_vision",
+      "duration": 30,
+      "amplifier": 0,
+      "event_listener": {
+        "player_condition": {
+          "reverse_logic": false,
+          "type": "skilltree:crouching"
+        },
+        "cooldown": 20,
+        "type": "skilltree:ticking"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:ranger_1",
+    "skilltree:ranger_79",
+    "skilltree:ranger_88",
+    "skilltree:ranger_93",
+    "skilltree:ranger_98"
+  ],
+  "oneWayConnections": [
+    "skilltree:ranger_15",
+    "skilltree:ranger_16",
+    "skilltree:ranger_17"
+  ],
+  "tags": [
+    "Ranger Subclass"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class_light_blue.png",
+  "iconTexture": "too_many_bows:textures/item/cyroheart_bow_pulling_2.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_blue.png",
+  "title": "Atirador de Elite",
+  "titleColor": "ebd93b",
+  "positionX": -262.56738,
+  "positionY": -2.666667,
+  "buttonSize": 40,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Persiga e atinja seus inimigos com disparos poderosos que levam um momento para mirar."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+30% de Velocidade da Flecha"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "-40% de Velocidade de Puxada"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Ganha Visão Noturna enquanto agachado"
+    }
+  ]
+}

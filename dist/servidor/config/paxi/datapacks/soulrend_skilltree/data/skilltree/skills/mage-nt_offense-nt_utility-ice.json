@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_offense-nt_utility-ice",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "id": "73adcbca-d75d-4dda-8ca3-cc10f10d42a9",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_green2.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_teal.png",
+  "title": "Senciência",
+  "titleColor": "DEF8FF",
+  "positionX": -322.969,
+  "positionY": 208.095,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

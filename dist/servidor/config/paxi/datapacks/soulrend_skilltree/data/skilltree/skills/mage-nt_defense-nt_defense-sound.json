@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:mage-nt_defense-nt_defense-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:summon_damage",
+      "id": "afdedec3-d072-4ab4-bef3-b22bfed0139a",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "familiarslib:sound_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.25,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_magenta.png",
+  "iconTexture": "skilltree:textures/icons/spell_res.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_magenta.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 262.10437,
+  "positionY": -174.4861,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

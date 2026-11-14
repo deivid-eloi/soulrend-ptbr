@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:mage-nt_defense-geo",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "id": "59e5541c-8639-4870-8243-b4603836c805",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:mage-6b-nt_defense-geo"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:mage-nt_defense-nt_defense-geo",
+    "skilltree:mage-nt_offense-nt_defense-geo",
+    "skilltree:mage-nt_utility-nt_defense-geo"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "soulsweapons:textures/item/moonstone.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_purple.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 1.4553881,
+  "positionY": -259.00244,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

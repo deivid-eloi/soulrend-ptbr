@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:warrior_87",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "ab20384e-1af1-443a-917d-9e35b2d7d95b",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "soulrend:heavy_armor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_134"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_136",
+    "skilltree:warrior_135",
+    "skilltree:warrior_137"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe_sigils_yellow.png",
+  "iconTexture": "dungeons_and_combat:textures/item/cobalt_shield.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser_orange.png",
+  "title": "Baluarte",
+  "titleColor": "176b8f",
+  "positionX": 236.55469,
+  "positionY": 165.33325,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0,2 de Sobrecura com armadura pesada equipada"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:warrior_77",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:fire_damage",
+      "id": "132a5d3b-d17c-47be-9572-29286d9111ce",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:cold_damage",
+      "id": "85af614c-8fb0-400f-b04e-0437d631ead2",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_4"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_diamond.png",
+  "iconTexture": "traveloptics:textures/mob_effect/nullflare_fire.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -156.10222,
+  "positionY": -51.32869,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:rogue_7",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:weight",
+      "id": "633d3ea7-9016-40d9-ac56-19517b6f4b88",
+      "name": "Skill",
+      "amount": -10.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:rogue_41"
+  ],
+  "longConnections": [
+    "skilltree:rogue_80"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "minecraft:textures/mob_effect/slow_falling.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": 97.7404,
+  "positionY": 53.66212,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

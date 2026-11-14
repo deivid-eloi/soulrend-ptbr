@@ -1,0 +1,128 @@
+{
+  "id": "skilltree:warrior_85",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "4f36ab68-fc2d-4350-a2b2-de6e61b267a2",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "30205436-500e-426a-b196-fa8ec8ebd383",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 2
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stun_armor",
+      "id": "f6901707-12cb-4d72-b994-a6eaf5003401",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "49a71a9c-0408-4504-b706-d30c9bee7662",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "tag_id": "soulrend:magic_weapons",
+        "type": "skilltree:tag"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_115",
+    "skilltree:warrior_120",
+    "skilltree:warrior_125",
+    "skilltree:warrior_130"
+  ],
+  "oneWayConnections": [
+    "skilltree:warrior_163",
+    "skilltree:warrior_164",
+    "skilltree:warrior_162"
+  ],
+  "tags": [
+    "Warrior Subclass"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class_yellow.png",
+  "iconTexture": "valarian_conquest:textures/item/hospitaller_helm_1.png",
+  "borderTexture": "skilltree:textures/tooltip/widget_orange.png",
+  "title": "Templário",
+  "titleColor": "ebd93b",
+  "positionX": 236.55469,
+  "positionY": -0.66666454,
+  "buttonSize": 40,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "30",
+        {
+          "translate": "attribute.name.generic.armor"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.2",
+      "with": [
+        "25",
+        {
+          "translate": "attribute.name.generic.max_health"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "2.5",
+        {
+          "translate": "attribute.name.epicfight.stun_armor"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "2.5",
+        {
+          "translate": "attribute.name.generic.armor_toughness"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Você não pode usar cajado"
+    }
+  ]
+}

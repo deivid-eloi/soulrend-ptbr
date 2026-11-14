@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:rogue_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:armor_negation",
+      "id": "0d6a4807-0318-460b-a307-0a6944ad9ec7",
+      "name": "Skill",
+      "amount": 6.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:rogue_50"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_metal_gold.png",
+  "iconTexture": "epicfight_dd:textures/item/blood_ritus_dagger_gui.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Notável",
+  "titleColor": "176b8f",
+  "positionX": 0.6669922,
+  "positionY": 111.99996,
+  "buttonSize": 30,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+6% de Negação de Armadura"
+    }
+  ]
+}

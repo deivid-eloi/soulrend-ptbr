@@ -1,0 +1,50 @@
+{
+  "id": "skilltree:warrior_157",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.15,
+      "max_stacks": 2,
+      "effect": "attributeslib:sundering",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "player_condition": {
+          "item_condition": {
+            "tag_id": "soulrend_tweaks:two_handed_weapons",
+            "type": "skilltree:tag"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring.png",
+  "iconTexture": "attributeslib:textures/mob_effect/sundering.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_red.png",
+  "title": "Notável - Única",
+  "titleColor": "ab24b3",
+  "positionX": -299.38806,
+  "positionY": 140.16837,
+  "buttonSize": 25,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+15% de Chance de causar Fratura por 5 segundos ao acertar corpo a corpo com arma de duas mãos em mãos, acumula até 2 vezes"
+    }
+  ]
+}

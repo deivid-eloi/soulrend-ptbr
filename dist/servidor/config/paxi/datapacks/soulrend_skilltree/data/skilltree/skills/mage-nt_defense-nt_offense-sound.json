@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:mage-nt_defense-nt_offense-sound",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "familiarslib:sound_spell_power",
+      "id": "73cfa6b8-6de2-4550-a10b-67175ff99bc8",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_magenta.png",
+  "iconTexture": "skilltree:textures/item/gems/iriscite_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_magenta.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 331.3939,
+  "positionY": -296.5334,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}

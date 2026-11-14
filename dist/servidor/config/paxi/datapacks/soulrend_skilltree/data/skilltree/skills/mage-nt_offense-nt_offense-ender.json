@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:mage-nt_offense-nt_offense-ender",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "9fd21632-b1e6-4434-a94b-b5faa815976d",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable_ring_stygian_blue.png",
+  "iconTexture": "subtle_effects:textures/particle/amethyst_sparkle.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_purple.png",
+  "title": "Senciência",
+  "titleColor": "ab24b3",
+  "positionX": 116.14492,
+  "positionY": 231.57286,
+  "buttonSize": 21,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": false
+}
