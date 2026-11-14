@@ -20,14 +20,12 @@ Os arquivos são para **Soulrend v8.5.2**. O novo formato de datapack foi verifi
 2. Baixe a tradução do servidor e extraia o ZIP na **raiz** do servidor, onde fica o `server.properties`. Mescle as pastas `config` existentes e aceite substituir somente os arquivos de quests com o mesmo nome. **Não apague nem substitua pastas inteiras.** O resultado inclui:
    - `config/ftbquests/quests/`: missões traduzidas.
    - `config/paxi/datapacks/Soulrend-PTBR-Datapack.zip`: tradução adicional de classes e origens. Deixe este ZIP fechado, ao lado das pastas dos datapacks originais.
-3. No `server.properties`:
+3. No `server.properties`, deixe o resource pack **vazio**:
    ```properties
-   resource-pack=https://github.com/deivid-eloi/soulrend-ptbr/raw/main/dist/Soulrend-PTBR.zip
-   resource-pack-sha1=7fca6b789b84f67d85bb25355260aeb4e962dc65
-   require-resource-pack=false
-   resource-pack-prompt=Tradução PT-BR do modpack
+   resource-pack=
+   resource-pack-sha1=
    ```
-   O SHA1 muda a cada versão do pack. Para calcular: `certutil -hashfile Soulrend-PTBR.zip SHA1` (Windows) ou `sha1sum Soulrend-PTBR.zip` (Linux).
+   Não envie a tradução pelo servidor. O jogo recarrega todos os packs quando recebe o pack do servidor; se a tela de escolha de raça estiver aberta nesse momento (primeiro login), o cliente crasha com `zip file closed` (otimização de idiomas do ModernFix). Cada jogador instala o pack manualmente (veja abaixo).
 4. Ligue o servidor.
 
 O Paxi carrega o datapack adicional automaticamente. Ele mantém os mesmos IDs, poderes e condições dos arquivos de referência e altera os textos e a prioridade de carregamento do Origins. Não é necessário substituir os arquivos dentro de `soulrend_origins_classes`. Consulte a [documentação do Paxi](https://www.curseforge.com/minecraft/mc-mods/paxi) e as prioridades de [origens](https://origins.readthedocs.io/en/latest/json/origin/) e [camadas](https://origins.readthedocs.io/en/latest/json/origin_layer/).
@@ -46,10 +44,12 @@ As missões desta versão são traduzidas diretamente nos arquivos de configura�
 
 ## Para os jogadores
 
-1. Em **Opções → Idioma**, escolha **Português (Brasil)**.
-2. Ao entrar no servidor, aceite o pacote de recursos.
+1. Baixe a [tradução dos jogadores](https://github.com/deivid-eloi/soulrend-ptbr/raw/refs/heads/main/dist/Soulrend-PTBR.zip) (`Soulrend-PTBR.zip`).
+2. No CurseForge, clique com o botão direito no modpack → **Abrir pasta** e coloque o ZIP (sem extrair) dentro de `resourcepacks`.
+3. No jogo, em **Opções → Pacotes de recursos**, ative `Soulrend-PTBR.zip` e deixe-o **no topo** da lista.
+4. Em **Opções → Idioma**, escolha **Português (Brasil)**.
 
-Para jogar sozinho, coloque `Soulrend-PTBR.zip` na pasta `resourcepacks` da instância e ative o pack no topo da lista.
+Faça isso antes de entrar no servidor pela primeira vez, para a tela de escolha de raça já abrir traduzida. Quando sair uma versão nova da tradução, baixe o ZIP de novo e substitua o antigo.
 
 ## Aviso
 
