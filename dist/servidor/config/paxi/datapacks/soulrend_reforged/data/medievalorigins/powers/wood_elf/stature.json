@@ -1,0 +1,77 @@
+{
+  "loading_priority": 100,
+  "name": "Estatura",
+  "description": "Alto e gracioso, você se destaca entre os outros povos, com uma postura moldada pelas árvores ancestrais.",
+  "type": "origins:multiple",
+  "stature": {
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:height 1.2777777777777777 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:model_height 1 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale reset pehkui:visibility @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tag @s add soulrend_forest_elf"
+        }
+      ]
+    },
+    "entity_action_lost": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale reset pehkui:height @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale reset pehkui:model_height @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale persist reset pehkui:height @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale persist reset pehkui:model_height @s"
+            }
+          ]
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tag @s remove soulrend_forest_elf"
+        }
+      ]
+    }
+  },
+  "maintain": {
+    "type": "origins:action_over_time",
+    "interval": 50,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:height 1.2777777777777777 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:model_height 1 @s"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "type": "origins:multiple",
+  "name": "Olhos Noturnos",
+  "description": "Gerações sob as montanhas ensinaram os olhos anões a se sentir à vontade na escuridão mais profunda, onde o sol não passa de uma lembrança distante.",
+  "hidden": false,
+  "underground_vision": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:height",
+        "comparison": "<=",
+        "compare_to": 0
+      }
+    },
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:night_vision",
+        "amplifier": 0,
+        "duration": 300,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      }
+    },
+    "falling_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:status_effect",
+        "effect": "minecraft:night_vision",
+        "min_amplifier": 0,
+        "max_amplifier": 0,
+        "max_duration": 300
+      },
+      "if_action": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:night_vision"
+      }
+    }
+  },
+  "cleanup": {
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:status_effect",
+        "effect": "minecraft:night_vision",
+        "min_amplifier": 0,
+        "max_amplifier": 0,
+        "max_duration": 300
+      },
+      "if_action": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:night_vision"
+      }
+    }
+  }
+}

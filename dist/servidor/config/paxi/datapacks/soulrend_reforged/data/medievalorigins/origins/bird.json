@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "medievalorigins:bird/natural_flight",
+    "medievalorigins:bird/dragon_wings",
+    "medievalorigins:bird/fall_immunity",
+    "medievalorigins:bird/wing_dash",
+    "medievalorigins:bird/acid_spit",
+    "medievalorigins:bird/poison_immunity",
+    "medievalorigins:bird/wet_wings",
+    "medievalorigins:bird/tailwind",
+    "medievalorigins:bird/small_stature",
+    "medievalorigins:bird/bread_only",
+    "medievalorigins:bird/fragile"
+  ],
+  "icon": {
+    "item": "iceandfire:dragonscales_green"
+  },
+  "order": 1,
+  "impact": 2,
+  "name": "Corrosid",
+  "description": "-§l Visão Geral§r:\n§o§2+ Voo, pousos seguros, velocidade, imunidade a veneno §r\n§o§6• Bola de fogo ácida, investida giratória §r\n§o§c- Frágil, dieta só de pão, nada mal §r\nOs §lCorrosids§r são criaturas pequenas de asas afiadas, com veneno no sangue e chamas cáusticas na garganta. O vento os leva depressa e as asas amortecem até a queda mais longa, mas os ossos ocos oferecem pouca proteção, e a água pesa nas suas asas."
+}

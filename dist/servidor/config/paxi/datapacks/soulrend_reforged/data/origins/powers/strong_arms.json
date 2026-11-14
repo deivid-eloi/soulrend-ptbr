@@ -1,0 +1,20 @@
+{
+  "loading_priority": 100,
+  "type": "origins:attribute",
+  "name": "Braços Fortes",
+  "description": "Seus membros poderosos dão um peso esmagador a cada golpe, seja de punhos nus ou com uma arma na mão.",
+  "modifiers": [
+    {
+      "name": "Shulk Strong Arms",
+      "attribute": "epicfight:impact",
+      "value": 10,
+      "operation": "addition"
+    },
+    {
+      "name": "Shulk Strong Arms offhand",
+      "attribute": "epicfight:offhand_impact",
+      "value": 10,
+      "operation": "addition"
+    }
+  ]
+}

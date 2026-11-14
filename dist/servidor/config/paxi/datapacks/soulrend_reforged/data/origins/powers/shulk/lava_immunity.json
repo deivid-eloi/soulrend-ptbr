@@ -1,0 +1,9 @@
+{
+  "type": "origins:invulnerability",
+  "name": "Carapaça Derretida",
+  "description": "Seu casco resistente protege você do toque abrasador da lava.",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "lava"
+  }
+}

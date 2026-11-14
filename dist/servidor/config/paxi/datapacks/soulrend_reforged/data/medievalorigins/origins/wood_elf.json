@@ -1,0 +1,21 @@
+{
+  "loading_priority": 100,
+  "name": "Elfo da Floresta",
+  "description": "§lVisão Geral§r:\n§2+ Arquearia§r\n§2+ Fabricação de Flechas§r\n§2+ Olhos de Águia§r\n§2+ Invocações da Floresta§r\n§2+ Águia Companheira§r\n§2+ Montaria de Lobo Dourado§r\n§6* Estatura Alta§r\n§6* Afinidade com a Natureza§r\n§c- Dieta Vegetariana§r\n\nFilhos da floresta ancestral, os Elfos da Floresta são arqueiros de olhar aguçado e flecheiros talentosos. Lobos e ursos atendem ao seu chamado, enquanto uma águia e um grande lobo dourado os acompanham na jornada. Tiram seu sustento das dádivas da terra e abrem mão da carne em harmonia com os seres da floresta.",
+  "powers": [
+    "medievalorigins:wood_elf/sylvan_marksman",
+    "medievalorigins:wood_elf/fletcher",
+    "medievalorigins:wood_elf/eagle_eyed",
+    "medievalorigins:wood_elf/stature",
+    "medievalorigins:wood_elf/call_of_the_wild",
+    "medievalorigins:wood_elf/falconry",
+    "medievalorigins:wood_elf/lupus_companion",
+    "medievalorigins:wood_elf/steward",
+    "medievalorigins:wood_elf/spell_power"
+  ],
+  "icon": {
+    "item": "medievalorigins:wood_elf"
+  },
+  "impact": 2,
+  "order": 0
+}

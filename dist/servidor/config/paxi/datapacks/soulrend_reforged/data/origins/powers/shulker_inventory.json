@@ -1,0 +1,17 @@
+{
+  "loading_priority": 100,
+  "type": "origins:inventory",
+  "name": "Acumulador",
+  "description": "Seu casco guarda um refúgio escondido para seus pertences mais valiosos, seguro até depois da morte. Com a nutrição paciente dos estranhos jardins do End, ele ainda pode ganhar mais espaço.",
+  "title": "container.shulker_inventory_power",
+  "container_type": "chest",
+  "drop_on_death": false,
+  "condition": {
+    "type": "origins:constant",
+    "value": false
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  }
+}

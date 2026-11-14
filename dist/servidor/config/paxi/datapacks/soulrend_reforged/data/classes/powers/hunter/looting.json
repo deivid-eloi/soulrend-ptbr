@@ -1,0 +1,6 @@
+{
+  "loading_priority": 100,
+  "type": "origins:simple",
+  "name": "Colheita do Caçador",
+  "description": "Sua experiência de caça rende espólios mais ricos das criaturas abatidas, com a sorte de Pilhagem II. Pilhagem mais forte tem prioridade."
+}

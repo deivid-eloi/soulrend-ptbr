@@ -1,0 +1,42 @@
+{
+  "loading_priority": 100,
+  "name": "Guardião",
+  "description": "Você vive em harmonia com os seres da floresta e tira seu sustento das dádivas da terra.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:meat"
+            }
+          },
+          {
+            "type": "origins:meat"
+          }
+        ]
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "soulrend:forest_elf_vegetarian"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

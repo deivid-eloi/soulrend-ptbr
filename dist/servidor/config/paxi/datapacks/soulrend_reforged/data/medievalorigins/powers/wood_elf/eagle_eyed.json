@@ -1,0 +1,43 @@
+{
+  "loading_priority": 100,
+  "name": "Olhos de Águia",
+  "description": "Fique imóvel sob os galhos e os inimigos próximos serão revelados. Depois de atingidos, continuam visíveis para você, mesmo além das folhas.",
+  "type": "origins:multiple",
+  "crouching_sight": {
+    "type": "origins:entity_glow",
+    "condition": {
+      "type": "origins:sneaking"
+    },
+    "entity_condition": {
+      "type": "origins:in_tag",
+      "tag": "kubejs:forest_elf_hostiles"
+    },
+    "bientity_condition": {
+      "type": "origins:distance",
+      "comparison": "<=",
+      "compare_to": 20
+    },
+    "use_teams": false,
+    "red": 0.35,
+    "green": 1.0,
+    "blue": 0.35,
+    "hidden": true
+  },
+  "marked_target": {
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:glowing",
+        "show_particles": false,
+        "amplifier": 1,
+        "duration": 200
+      }
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    },
+    "hidden": true
+  }
+}

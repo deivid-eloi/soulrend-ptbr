@@ -1,0 +1,18 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 300,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 5
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "tag @s add soulrend_bird_acid_fireball_request"
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "name": "Bola de Fogo Ácida",
+  "description": "Uma chama cáustica se acumula na sua garganta antes de você lançá-la contra os inimigos. Sua fúria cresce com o seu domínio da natureza."
+}

@@ -1,0 +1,12 @@
+{
+  "loading_priority": 100,
+  "type": "origins:prevent_item_use",
+  "name": "Desajeitado",
+  "description": "Suas mãos largas e rígidas não conseguem segurar um escudo em posição de defesa. Seu próprio casco precisa abrigar você.",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:shields"
+    }
+  }
+}

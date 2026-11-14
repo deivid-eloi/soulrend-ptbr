@@ -1,0 +1,66 @@
+{
+  "loading_priority": 100,
+  "name": "Flecheiro",
+  "description": "Suas mãos experientes rendem mais flechas por feixe, tecendo seda de aranha onde outros prendem penas.",
+  "type": "origins:multiple",
+  "arrow": {
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:arrow",
+    "result": {
+      "item": "minecraft:arrow",
+      "amount": 8
+    }
+  },
+  "spectral_arrow": {
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:spectral_arrow",
+    "result": {
+      "item": "minecraft:spectral_arrow",
+      "amount": 4
+    }
+  },
+  "dragonbone_arrow": {
+    "type": "origins:modify_crafting",
+    "recipe": "iceandfire:dragonbone_arrow",
+    "result": {
+      "item": "iceandfire:dragonbone_arrow",
+      "amount": 10
+    }
+  },
+  "silk_arrows": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "medievalorigins:wood_elf/silk_arrows",
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "pattern": [
+        "F",
+        "S",
+        "T"
+      ],
+      "key": {
+        "F": {
+          "item": "minecraft:flint"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        },
+        "T": [
+          {
+            "item": "minecraft:string"
+          },
+          {
+            "item": "alexscaves:shadow_silk"
+          },
+          {
+            "item": "dungeons_and_combat:cursed_silk"
+          }
+        ]
+      },
+      "result": {
+        "item": "minecraft:arrow",
+        "count": 8
+      }
+    }
+  }
+}

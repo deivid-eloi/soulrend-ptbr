@@ -1,0 +1,24 @@
+{
+  "loading_priority": 100,
+  "name": "Shulk",
+  "description": "-§l Visão Geral§r: \n§o§2+ Defesa, Impacto§r\n§o§2+ Teletransporte§r\n§o§2+ Imunidade a Lava§r\n§o§6• Armazenamento Crescente§r\n§o§c- Lento, Faminto, Sem Escudos§r\nParente dos Shulkers do End, seu casco robusto e seus membros poderosos fazem de você uma presença temível. Você enfrenta o perigo com determinação paciente e escapa pelas dobras do espaço quando ele chega perto demais.",
+  "powers": [
+    "origins:natural_armor",
+    "origins:strong_arms",
+    "origins:shulk/heavy_shell",
+    "origins:shulk/defensive_shell",
+    "origins:shulk/phase_step",
+    "origins:shulk/lava_immunity",
+    "origins:shulker_inventory",
+    "origins:shulk/hoarder_access",
+    "origins:shulk/hoarder_growth",
+    "origins:shulk/hoarder_progress",
+    "origins:no_shield",
+    "origins:more_exhaustion"
+  ],
+  "icon": {
+    "item": "minecraft:shulker_shell"
+  },
+  "order": 4,
+  "impact": 1
+}

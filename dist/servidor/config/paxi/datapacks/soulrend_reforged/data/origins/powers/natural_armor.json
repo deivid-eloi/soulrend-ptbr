@@ -1,0 +1,12 @@
+{
+  "loading_priority": 100,
+  "type": "origins:attribute",
+  "name": "Pele Resistente",
+  "description": "Um couro duro, como uma carapaça, protege seu corpo, mesmo por baixo da armadura.",
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 8,
+    "operation": "addition"
+  }
+}

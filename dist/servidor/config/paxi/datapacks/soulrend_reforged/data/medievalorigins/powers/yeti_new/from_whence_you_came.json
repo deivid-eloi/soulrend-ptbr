@@ -1,0 +1,75 @@
+{
+  "type": "origins:multiple",
+  "speed_increase": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "addition",
+      "value": 0.03
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0.4
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:in_tag",
+            "tag": "medievalorigins:cold_biomes"
+          }
+        }
+      ]
+    }
+  },
+  "better_in_snow": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "fall"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0.4
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:in_tag",
+            "tag": "medievalorigins:cold_biomes"
+          }
+        }
+      ]
+    }
+  },
+  "description": "Yetis prosperam em biomas gelados, ficando mais rápidos e sofrendo menos dano de queda. São imunes a dano de congelamento em todos os biomas.",
+  "cold_immunity": {
+    "type": "origins:modify_damage_taken",
+    "hidden": true,
+    "damage_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:is_freezing"
+    },
+    "modifier": {
+      "operation": "multiply_total_multiplicative",
+      "value": -1
+    }
+  }
+}

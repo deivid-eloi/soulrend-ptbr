@@ -1,0 +1,20 @@
+{
+  "loading_priority": 100,
+  "name": "Chamado da Natureza",
+  "description": "Chame lobos e ursos da floresta para ficarem ao seu lado e defenderem você da escuridão.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "tag @s add soulrend_forest_elf_summon_request"
+  },
+  "cooldown": 300,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 5
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "name": "Casco Pesado",
+  "description": "O peso do casco dá aos seus passos um ritmo lento e deliberado.",
+  "modifier": {
+    "name": "Shulk Heavy Shell",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": -0.2,
+    "operation": "multiply_total"
+  }
+}

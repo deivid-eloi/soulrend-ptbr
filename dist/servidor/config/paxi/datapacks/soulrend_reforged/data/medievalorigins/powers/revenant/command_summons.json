@@ -1,0 +1,15 @@
+{
+  "loading_priority": 100,
+  "type": "origins:active_self",
+  "name": "Comandar Mortos-Vivos",
+  "description": "Ordene que seu esquadrão de Revenância, incluindo Kamath, fique parado, siga você ou venha até você. Os comandos alternam nessa ordem; \"venha\" só funciona na mesma dimensão.",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "tag @s add soulrend_revenant_command_request"
+  },
+  "cooldown": 10,
+  "key": {
+    "key": "key.medievalorigins.tertiary_active",
+    "continuous": false
+  }
+}

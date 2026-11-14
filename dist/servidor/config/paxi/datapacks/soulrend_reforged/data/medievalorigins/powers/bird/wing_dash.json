@@ -1,0 +1,45 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 4
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:on_block"
+        },
+        "if_action": {
+          "type": "origins:add_velocity",
+          "x": 0.0,
+          "y": 0.15,
+          "z": 1.5,
+          "space": "local",
+          "set": true
+        },
+        "else_action": {
+          "type": "origins:add_velocity",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 2.0,
+          "space": "local",
+          "set": true
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "tag @s add soulrend_bird_acid_dash_request"
+      }
+    ]
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "name": "Investida Alada",
+  "description": "Uma batida feroz das asas lança você girando para a frente, do chão ou do céu aberto."
+}

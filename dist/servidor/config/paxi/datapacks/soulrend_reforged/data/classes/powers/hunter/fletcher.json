@@ -1,0 +1,48 @@
+{
+  "loading_priority": 100,
+  "name": "Flecheiro Engenhoso",
+  "description": "Um caçador aproveita cada feixe, moldando flechas extras e usando galhos onde outros usam gravetos.",
+  "type": "origins:multiple",
+  "arrow": {
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:arrow",
+    "result": {
+      "item": "minecraft:arrow",
+      "amount": 6
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "medievalorigins:wood_elf",
+      "layer": "origins:origin",
+      "inverted": true
+    }
+  },
+  "spectral_arrow": {
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:spectral_arrow",
+    "result": {
+      "item": "minecraft:spectral_arrow",
+      "amount": 3
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "medievalorigins:wood_elf",
+      "layer": "origins:origin",
+      "inverted": true
+    }
+  },
+  "dragonbone_arrow": {
+    "type": "origins:modify_crafting",
+    "recipe": "iceandfire:dragonbone_arrow",
+    "result": {
+      "item": "iceandfire:dragonbone_arrow",
+      "amount": 8
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "medievalorigins:wood_elf",
+      "layer": "origins:origin",
+      "inverted": true
+    }
+  }
+}
